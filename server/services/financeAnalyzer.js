@@ -175,3 +175,168 @@ export const calculateFinanceMetrics = (transactions = [], budget = null) => {
     monthlyExpenses: monthlyExpenses,
   };
 };
+
+const normalizeDateKey = (value) => {
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed.toISOString().slice(0, 7);
+};
+
+const toPlainTransaction = (transaction = {}) => ({
+  ...transaction,
+  amount: Number(transaction.amount || 0),
+  type: transaction.type,
+  category: transaction.category,
+  date: transaction.date || transaction.transactionDate,
+});
+
+export const calculateSavingsRate = (transactions = []) => {
+  const monthMap = {};
+
+  transactions.forEach(transaction => {
+    const tx = toPlainTransaction(transaction);
+    const month = normalizeDateKey(tx.date);
+    if (!month) return;
+
+    if (!monthMap[month]) {
+      monthMap[month] = { income: 0, expense: 0 };
+    }
+
+    if (tx.type === "income") {
+      monthMap[month].income += tx.amount;
+    } else if (tx.type === "expense") {
+      monthMap[month].expense += tx.amount;
+    }
+  });
+
+  return Object.entries(monthMap)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([month, values]) => ({
+      month,
+      savingsRate: values.income > 0 ? ((values.income - values.expense) / values.income) * 100 : 0,
+    }));
+};
+
+export const calculateBurnRate = (transactions = []) => {
+  const monthMap = {};
+
+  transactions.forEach(transaction => {
+    const tx = toPlainTransaction(transaction);
+    if (tx.type !== "expense") return;
+
+    const month = normalizeDateKey(tx.date);
+    if (!month) return;
+
+    monthMap[month] = (monthMap[month] || 0) + tx.amount;
+  });
+
+  const months = Object.keys(monthMap);
+  const totalExpenses = Object.values(monthMap).reduce((sum, value) => sum + value, 0);
+
+  return months.length > 0 ? totalExpenses / months.length : 0;
+};
+
+export const calculateDiscretionaryRatio = (transactions = []) => {
+  const essentialCategories = ["Rent", "Utilities", "Groceries", "Healthcare", "Transport", "Transportation"];
+  const discretionaryCategories = ["Dining", "Entertainment", "Shopping", "Subscriptions"];
+
+  let essentialTotal = 0;
+  let discretionaryTotal = 0;
+
+  transactions.forEach(transaction => {
+    const tx = toPlainTransaction(transaction);
+    if (tx.type !== "expense") return;
+
+    if (essentialCategories.includes(tx.category)) {
+      essentialTotal += tx.amount;
+    } else if (discretionaryCategories.includes(tx.category)) {
+      discretionaryTotal += tx.amount;
+    }
+  });
+
+  const totalClassifiedSpend = essentialTotal + discretionaryTotal;
+  const discretionaryPct = totalClassifiedSpend > 0 ? (discretionaryTotal / totalClassifiedSpend) * 100 : 0;
+
+  return {
+    essentialTotal,
+    discretionaryTotal,
+    discretionaryPct,
+  };
+};
+
+export const calculateSpendingVolatility = (transactions = []) => {
+  const monthlySpendByCategory = {};
+
+  transactions.forEach(transaction => {
+    const tx = toPlainTransaction(transaction);
+    if (tx.type !== "expense") return;
+
+    const month = normalizeDateKey(tx.date);
+    if (!month) return;
+
+    const key = `${tx.category}:${month}`;
+    monthlySpendByCategory[key] = (monthlySpendByCategory[key] || 0) + tx.amount;
+  });
+
+  const monthlyValuesByCategory = {};
+  Object.entries(monthlySpendByCategory).forEach(([key, amount]) => {
+    const [category, month] = key.split(":");
+    if (!monthlyValuesByCategory[category]) {
+      monthlyValuesByCategory[category] = [];
+    }
+    monthlyValuesByCategory[category].push(amount);
+  });
+
+  return Object.entries(monthlyValuesByCategory)
+    .map(([category, amounts]) => {
+      if (amounts.length <= 1) {
+        return { category, volatility: 0 };
+      }
+
+      const mean = amounts.reduce((sum, value) => sum + value, 0) / amounts.length;
+      const variance = amounts.reduce((sum, value) => sum + Math.pow(value - mean, 2), 0) / amounts.length;
+      return { category, volatility: Math.sqrt(variance) };
+    })
+    .sort((a, b) => b.volatility - a.volatility);
+};
+
+export const calculateBudgetVariance = (transactions = [], budgets = []) => {
+  const latestMonth = transactions
+    .map(transaction => normalizeDateKey(transaction.date || transaction.transactionDate))
+    .filter(Boolean)
+    .sort((a, b) => a.localeCompare(b))
+    .pop();
+
+  const actualSpendByCategory = {};
+  transactions.forEach(transaction => {
+    const tx = toPlainTransaction(transaction);
+    if (tx.type !== "expense") return;
+
+    const month = normalizeDateKey(tx.date);
+    if (month !== latestMonth) return;
+
+    actualSpendByCategory[tx.category] = (actualSpendByCategory[tx.category] || 0) + tx.amount;
+  });
+
+  const normalizedBudgets = budgets.map(budget => ({
+    ...budget,
+    category: budget.category,
+    limit: Number(budget.limit || budget.monthlyLimit || budget.monthly_budget || 0),
+  }));
+
+  return normalizedBudgets
+    .map(budget => {
+      const actual = actualSpendByCategory[budget.category] || 0;
+      const budgeted = budget.limit || 0;
+      const variance = actual - budgeted;
+      const variancePct = budgeted > 0 ? (variance / budgeted) * 100 : 0;
+
+      return {
+        category: budget.category,
+        budgeted,
+        actual,
+        variance,
+        variancePct,
+      };
+    })
+    .sort((a, b) => b.variancePct - a.variancePct);
+};
