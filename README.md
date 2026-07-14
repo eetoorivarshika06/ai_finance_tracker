@@ -65,9 +65,11 @@ This project analyzes transaction-level income and expense records, monthly cash
 - **Anomaly Detection** — outlier detection on unusual transactions and category spend spikes using distribution-based thresholds
 
 ### Example Insights Surfaced
-- Savings rate trends show when expenses begin to outpace income growth across recent months
-- Burn-rate analysis highlights the months where spending accelerated above the user’s average run rate
-- Variance and volatility analysis identifies the categories most likely to exceed budget or swing unpredictably month to month
+- Average monthly income was ₹62,955 versus average monthly expense of ₹78,914, producing an average monthly deficit of ₹15,959
+- The average savings rate was -44.8%, and all 12 months in the sample were below the 20% recommended threshold
+- The largest expense categories were Groceries (31.5%), Rent (16.5%), and Transport (16.1%) of total expense volume
+- The analysis flagged 19 anomalous transactions using an IQR threshold of ₹10,075 and identified Dining as 362% over budget in June 2026
+- The forecasting model projected Groceries as the highest-spend category next month at ₹29,326
 
 ### Run the Jupyter Notebooks
 1. Install **Python 3.10+**.
@@ -87,9 +89,8 @@ jupyter notebook
 - `financial_analysis.ipynb`
 - `expense_forecasting.ipynb`
 
-### Screenshot Placeholders
-- `[Placeholder: Analytics dashboard page screenshot]`
-- `[Placeholder: Notebook charts screenshot]`
+### Case Study
+- Read the full narrative and chart walkthrough in [CASE_STUDY.md](CASE_STUDY.md)
 
 ---
 
@@ -132,6 +133,17 @@ jupyter notebook
 
 ```
 AI-Finance-Tracker/
+├── analytics/                      # Data analysis notebooks, scripts, outputs, and queries
+│   ├── data/                        # Synthetic transaction data and generation scripts
+│   │   ├── generate_data.py         # Synthetic data generator
+│   │   └── sample_transactions.csv # Sample transaction dataset
+│   ├── notebooks/                  # Executable analysis and forecasting notebooks
+│   │   ├── financial_analysis.ipynb
+│   │   ├── financial_analysis.py
+│   │   ├── expense_forecasting.ipynb
+│   │   └── expense_forecasting.py
+│   ├── outputs/                    # Saved analysis charts as PNGs
+│   └── queries/                    # MongoDB and SQL aggregation examples
 ├── client/                          # React frontend (Vite)
 │   ├── public/                      # Static assets
 │   ├── src/
@@ -330,6 +342,7 @@ The Vite dev server proxies `/api` requests to `http://localhost:5000`, so the f
 | `/login` | Login | Public | User authentication |
 | `/signup` | Sign up | Public | User registration |
 | `/dashboard` | Dashboard | Protected | Main financial overview |
+| `/analytics` | Analytics | Protected | Portfolio-style finance analytics and forecasting page |
 | `/transactions` | Transactions | Protected | Manage income and expenses |
 | `/budget` | Budget | Protected | Set and track budgets |
 | `/insights` | AI Insights | Protected | AI-powered financial recommendations |
@@ -377,6 +390,7 @@ Protected routes require header: `Authorization: Bearer <token>`
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/dashboard/summary` | Get aggregated stats, trends, and recent transactions |
+| `GET` | `/dashboard/metrics` | Get finance analytics metrics including savings rate, burn rate, discretionary ratio, volatility, and budget variance |
 
 ### AI
 
@@ -486,7 +500,17 @@ Serve the `client/dist` folder with a static host (e.g. Vercel, Netlify) and dep
 
 ## Screenshots / Demo
 
-> _Add screenshots here to showcase the application's UI and features_
+![Monthly income vs expense trend](analytics/outputs/monthly_trend.png)
+
+![Category spending breakdown](analytics/outputs/category_breakdown.png)
+
+![Savings rate over time](analytics/outputs/savings_rate.png)
+
+![Month-over-month expense growth](analytics/outputs/expense_growth.png)
+
+![Outlier detection](analytics/outputs/outlier_detection.png)
+
+![Forecast comparison](analytics/outputs/forecast_comparison.png)
 
 ---
 
