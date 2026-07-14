@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   LayoutDashboard,
+  Activity,
   ArrowLeftRight,
   Target,
   Sparkles,
@@ -20,6 +21,7 @@ import { useSelector } from "react-redux";
 
 const links = [
   { to: ROUTES.DASHBOARD, label: "Dashboard", icon: LayoutDashboard },
+  { to: ROUTES.ANALYTICS, label: "Analytics", icon: Activity },
   { to: ROUTES.TRANSACTIONS, label: "Transactions", icon: ArrowLeftRight },
   { to: ROUTES.BUDGET, label: "Budget", icon: Target },
   { to: ROUTES.INSIGHTS, label: "AI Insights", icon: Sparkles },

@@ -7,6 +7,7 @@ import MainLayout from "../layouts/MainLayout";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Dashboard from "../pages/Dashboard";
+import Analytics from "../pages/Analytics";
 import Transactions from "../pages/Transactions";
 import Budget from "../pages/Budget";
 import Insights from "../pages/Insights";
@@ -27,6 +28,7 @@ function AppRoutes() {
       <Route element={<ProtectedRoute />}>
         <Route element={<MainLayout />}>
           <Route path={ROUTES.DASHBOARD} element={<Dashboard />} />
+          <Route path={ROUTES.ANALYTICS} element={<Analytics />} />
           <Route path={ROUTES.TRANSACTIONS} element={<Transactions />} />
           <Route path={ROUTES.BUDGET} element={<Budget />} />
           <Route path={ROUTES.INSIGHTS} element={<Insights />} />

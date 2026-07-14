@@ -49,24 +49,47 @@ AI Finance Tracker is a comprehensive personal finance management solution desig
 
 ---
 
-## 📊 Analytics & Insights
+## Data & Insights
 
-![Cash Flow](analytics/notebook/figures/cash_flow.png) ![Category Breakdown](analytics/notebook/figures/category_breakdown.png)
+This project analyzes transaction-level income and expense records, monthly cash-flow trends, savings behavior, category-level spending, and budget targets to surface decision-ready financial insights.
 
-**Key Finding:** Dining and Entertainment spending grew significantly faster than budgeted limits, driving a 16 percentage point decline in savings rate over the year (from 38% to 22%). Proactive budget adjustments in discretionary categories are recommended.
+### What Data Is Analyzed
+- **Transactions** — income and expense entries with amount, category, and transaction date
+- **Cash Flow History** — month-by-month income, expenses, and net savings patterns
+- **Budget Data** — monthly and category budget targets compared against actual spend
+- **Category Behavior** — recurring category spend, volatility, and spending outliers
 
-This project includes a comprehensive finance analytics layer showcasing data-analyst skills with SQL, Python/pandas, forecasting, anomaly detection, and financial KPIs.
+### Methods Used
+- **Aggregation** — monthly rollups, category totals, savings rate, burn rate, and budget variance calculations
+- **Regression / Forecasting** — notebook-based trend analysis and expense forecasting using linear modeling techniques
+- **Anomaly Detection** — outlier detection on unusual transactions and category spend spikes using distribution-based thresholds
 
-### Analytics Features
-- **SQL Analytics Module** — SQLite database with window functions (LAG, RANK), rolling averages, and variance calculations for month-over-month growth, budget variance, and savings rate analysis
-- **Python Analysis Notebook** — pandas-based recreation of SQL queries with visualizations, anomaly detection (>2σ threshold), and linear regression forecasting
-- **Data Export Pipeline** — MongoDB to CSV export script with synthetic dataset generation for offline demos
-- **Case Study Report** — Full finance analyst report with methodology, key findings, and actionable recommendations
+### Example Insights Surfaced
+- Savings rate trends show when expenses begin to outpace income growth across recent months
+- Burn-rate analysis highlights the months where spending accelerated above the user’s average run rate
+- Variance and volatility analysis identifies the categories most likely to exceed budget or swing unpredictably month to month
 
-### Resources
-- 📁 [SQL Queries](analytics/sql/) — Annotated SQL files for financial KPIs
-- 📓 [Analysis Notebook](analytics/notebook/finance_analysis.ipynb) — Complete Jupyter notebook with visualizations
-- 📄 [Case Study](analytics/CASE_STUDY.md) — Detailed analytics report
+### Run the Jupyter Notebooks
+1. Install **Python 3.10+**.
+2. Install the notebook dependencies:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn statsmodels jupyter
+```
+
+3. Start Jupyter:
+
+```bash
+jupyter notebook
+```
+
+4. Open either notebook from the `analytics/notebook/` directory:
+- `financial_analysis.ipynb`
+- `expense_forecasting.ipynb`
+
+### Screenshot Placeholders
+- `[Placeholder: Analytics dashboard page screenshot]`
+- `[Placeholder: Notebook charts screenshot]`
 
 ---
 
