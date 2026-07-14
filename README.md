@@ -49,6 +49,27 @@ AI Finance Tracker is a comprehensive personal finance management solution desig
 
 ---
 
+## 📊 Analytics & Insights
+
+![Cash Flow](analytics/notebook/figures/cash_flow.png) ![Category Breakdown](analytics/notebook/figures/category_breakdown.png)
+
+**Key Finding:** Dining and Entertainment spending grew significantly faster than budgeted limits, driving a 16 percentage point decline in savings rate over the year (from 38% to 22%). Proactive budget adjustments in discretionary categories are recommended.
+
+This project includes a comprehensive finance analytics layer showcasing data-analyst skills with SQL, Python/pandas, forecasting, anomaly detection, and financial KPIs.
+
+### Analytics Features
+- **SQL Analytics Module** — SQLite database with window functions (LAG, RANK), rolling averages, and variance calculations for month-over-month growth, budget variance, and savings rate analysis
+- **Python Analysis Notebook** — pandas-based recreation of SQL queries with visualizations, anomaly detection (>2σ threshold), and linear regression forecasting
+- **Data Export Pipeline** — MongoDB to CSV export script with synthetic dataset generation for offline demos
+- **Case Study Report** — Full finance analyst report with methodology, key findings, and actionable recommendations
+
+### Resources
+- 📁 [SQL Queries](analytics/sql/) — Annotated SQL files for financial KPIs
+- 📓 [Analysis Notebook](analytics/notebook/finance_analysis.ipynb) — Complete Jupyter notebook with visualizations
+- 📄 [Case Study](analytics/CASE_STUDY.md) — Detailed analytics report
+
+---
+
 ## Tech Stack
 
 ### Frontend
