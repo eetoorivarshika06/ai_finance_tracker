@@ -1,0 +1,9 @@
+id,user_id,monthly_budget,category,limit_amount,updated_at
+budget_Housing,sample_user_001,3500,Housing,1300,2026-07-14T04:17:04.414Z
+budget_Groceries,sample_user_001,3500,Groceries,500,2026-07-14T04:17:04.494Z
+budget_Dining,sample_user_001,3500,Dining,300,2026-07-14T04:17:04.494Z
+budget_Transportation,sample_user_001,3500,Transportation,250,2026-07-14T04:17:04.494Z
+budget_Entertainment,sample_user_001,3500,Entertainment,200,2026-07-14T04:17:04.494Z
+budget_Healthcare,sample_user_001,3500,Healthcare,150,2026-07-14T04:17:04.494Z
+budget_Shopping,sample_user_001,3500,Shopping,200,2026-07-14T04:17:04.494Z
+budget_Utilities,sample_user_001,3500,Utilities,175,2026-07-14T04:17:04.494Z

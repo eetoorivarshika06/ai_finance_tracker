@@ -1,0 +1,12 @@
+{
+  "name": "finance-analytics",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SQL analytics setup for Finance Tracker",
+  "scripts": {
+    "setup": "node sql/setup_db.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
