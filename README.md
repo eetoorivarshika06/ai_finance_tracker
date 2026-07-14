@@ -7,6 +7,12 @@
 
 A full-stack personal finance application that helps users track income and expenses, manage budgets, visualize cash flow, and receive AI-powered financial insights. Built with the MERN stack and a modern React dashboard inspired by premium fintech products.
 
+## Live Demo
+
+🔗 Live Demo: [Coming soon]
+
+(Deployed on Vercel + Render — link will be added after deployment)
+
 ---
 
 ## Overview
@@ -499,6 +505,14 @@ Serve the `client/dist` folder with a static host (e.g. Vercel, Netlify) and dep
 ---
 
 ## Screenshots / Demo
+
+![Dashboard screenshot](client/screenshots/dashboard.png)
+
+![Analytics screenshot](client/screenshots/analytics.png)
+
+![Transactions screenshot](client/screenshots/transactions.png)
+
+![Budget screenshot](client/screenshots/budget.png)
 
 ![Monthly income vs expense trend](analytics/outputs/monthly_trend.png)
 
