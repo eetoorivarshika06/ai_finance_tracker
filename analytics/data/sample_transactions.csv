@@ -1,306 +1,654 @@
 id,user_id,type,title,amount,category,payment_method,description,transaction_date,created_at,updated_at
-tx_1,sample_user_001,income,Monthly Salary,5570,Salary,Direct Deposit,Salary for 2025-01,2025-01-01,2026-07-14T04:17:04.494Z,2026-07-14T04:17:04.494Z
-tx_2,sample_user_001,expense,Housing expense,402.62,Housing,Cash,Housing spending,2025-01-10,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_3,sample_user_001,expense,Housing expense,458.48,Housing,Credit Card,Housing spending,2025-01-21,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_4,sample_user_001,expense,Housing expense,404.73,Housing,Cash,Housing spending,2025-01-13,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_5,sample_user_001,expense,Groceries expense,120.64,Groceries,Debit Card,Groceries spending,2025-01-01,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_6,sample_user_001,expense,Groceries expense,98.56,Groceries,Debit Card,Groceries spending,2025-01-18,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_7,sample_user_001,expense,Groceries expense,106.83,Groceries,Cash,Groceries spending,2025-01-03,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_8,sample_user_001,expense,Groceries expense,116.34,Groceries,Credit Card,Groceries spending,2025-01-07,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_9,sample_user_001,expense,Dining expense,137.41,Dining,Credit Card,Dining spending,2025-01-30,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_10,sample_user_001,expense,Dining expense,129.8,Dining,Credit Card,Dining spending,2025-01-18,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_11,sample_user_001,expense,Transportation expense,114.07,Transportation,Credit Card,Transportation spending,2025-01-18,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_12,sample_user_001,expense,Transportation expense,96.41,Transportation,Credit Card,Transportation spending,2025-01-09,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_13,sample_user_001,expense,Entertainment expense,75.62,Entertainment,Credit Card,Entertainment spending,2025-01-25,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_14,sample_user_001,expense,Entertainment expense,77.54,Entertainment,Credit Card,Entertainment spending,2025-01-17,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_15,sample_user_001,expense,Healthcare expense,63.66,Healthcare,Debit Card,Healthcare spending,2025-01-14,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_16,sample_user_001,expense,Healthcare expense,53.19,Healthcare,Debit Card,Healthcare spending,2025-01-25,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_17,sample_user_001,expense,Shopping expense,67.89,Shopping,Credit Card,Shopping spending,2025-01-21,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_18,sample_user_001,expense,Shopping expense,52.85,Shopping,Debit Card,Shopping spending,2025-01-31,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_19,sample_user_001,expense,Shopping expense,52.81,Shopping,Debit Card,Shopping spending,2025-01-07,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_20,sample_user_001,expense,Utilities expense,40.24,Utilities,Cash,Utilities spending,2025-01-02,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_21,sample_user_001,expense,Utilities expense,34.44,Utilities,Credit Card,Utilities spending,2025-01-18,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_22,sample_user_001,expense,Utilities expense,35.9,Utilities,Credit Card,Utilities spending,2025-01-12,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_23,sample_user_001,expense,Utilities expense,35.38,Utilities,Credit Card,Utilities spending,2025-01-10,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_24,sample_user_001,income,Monthly Salary,5546,Salary,Direct Deposit,Salary for 2025-02,2025-02-01,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_25,sample_user_001,expense,Housing expense,356.93,Housing,Debit Card,Housing spending,2025-02-25,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_26,sample_user_001,expense,Housing expense,459.7,Housing,Cash,Housing spending,2025-02-17,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_27,sample_user_001,expense,Housing expense,366.98,Housing,Cash,Housing spending,2025-02-25,2026-07-14T04:17:04.495Z,2026-07-14T04:17:04.495Z
-tx_28,sample_user_001,expense,Groceries expense,114.08,Groceries,Debit Card,Groceries spending,2025-02-23,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_29,sample_user_001,expense,Groceries expense,112.53,Groceries,Cash,Groceries spending,2025-02-26,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_30,sample_user_001,expense,Groceries expense,116.23,Groceries,Cash,Groceries spending,2025-02-17,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_31,sample_user_001,expense,Groceries expense,121.26,Groceries,Credit Card,Groceries spending,2025-02-13,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_32,sample_user_001,expense,Dining expense,136.38,Dining,Debit Card,Dining spending,2025-02-18,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_33,sample_user_001,expense,Dining expense,140.97,Dining,Cash,Dining spending,2025-02-13,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_34,sample_user_001,expense,Transportation expense,64.14,Transportation,Cash,Transportation spending,2025-02-14,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_35,sample_user_001,expense,Transportation expense,70.57,Transportation,Credit Card,Transportation spending,2025-02-28,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_36,sample_user_001,expense,Transportation expense,72.89,Transportation,Cash,Transportation spending,2025-02-17,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_37,sample_user_001,expense,Entertainment expense,36.08,Entertainment,Debit Card,Entertainment spending,2025-02-24,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_38,sample_user_001,expense,Entertainment expense,40.39,Entertainment,Debit Card,Entertainment spending,2025-02-16,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_39,sample_user_001,expense,Entertainment expense,39.01,Entertainment,Cash,Entertainment spending,2025-02-07,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_40,sample_user_001,expense,Entertainment expense,36.54,Entertainment,Debit Card,Entertainment spending,2025-02-20,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_41,sample_user_001,expense,Healthcare expense,26.01,Healthcare,Debit Card,Healthcare spending,2025-02-23,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_42,sample_user_001,expense,Healthcare expense,29.78,Healthcare,Debit Card,Healthcare spending,2025-02-05,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_43,sample_user_001,expense,Healthcare expense,30.49,Healthcare,Credit Card,Healthcare spending,2025-02-23,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_44,sample_user_001,expense,Healthcare expense,25.76,Healthcare,Cash,Healthcare spending,2025-02-19,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_45,sample_user_001,expense,Shopping expense,51.52,Shopping,Credit Card,Shopping spending,2025-02-24,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_46,sample_user_001,expense,Shopping expense,49.04,Shopping,Cash,Shopping spending,2025-02-22,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_47,sample_user_001,expense,Shopping expense,41.22,Shopping,Debit Card,Shopping spending,2025-02-17,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_48,sample_user_001,expense,Shopping expense,39.27,Shopping,Debit Card,Shopping spending,2025-02-17,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_49,sample_user_001,expense,Utilities expense,87.03,Utilities,Cash,Utilities spending,2025-02-26,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_50,sample_user_001,expense,Utilities expense,73.18,Utilities,Debit Card,Utilities spending,2025-02-03,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_51,sample_user_001,income,Monthly Salary,5521,Salary,Direct Deposit,Salary for 2025-03,2025-03-01,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_52,sample_user_001,expense,Housing expense,534.63,Housing,Cash,Housing spending,2025-03-31,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_53,sample_user_001,expense,Housing expense,558.18,Housing,Cash,Housing spending,2025-03-23,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_54,sample_user_001,expense,Groceries expense,130.45,Groceries,Debit Card,Groceries spending,2025-03-22,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_55,sample_user_001,expense,Groceries expense,129.71,Groceries,Credit Card,Groceries spending,2025-03-05,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_56,sample_user_001,expense,Groceries expense,157.5,Groceries,Cash,Groceries spending,2025-03-07,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_57,sample_user_001,expense,Dining expense,69.66,Dining,Cash,Dining spending,2025-03-28,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_58,sample_user_001,expense,Dining expense,78.73,Dining,Cash,Dining spending,2025-03-07,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_59,sample_user_001,expense,Dining expense,82.2,Dining,Credit Card,Dining spending,2025-03-27,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_60,sample_user_001,expense,Dining expense,69.13,Dining,Cash,Dining spending,2025-03-09,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_61,sample_user_001,expense,Transportation expense,70.55,Transportation,Cash,Transportation spending,2025-03-02,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_62,sample_user_001,expense,Transportation expense,58.77,Transportation,Cash,Transportation spending,2025-03-29,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_63,sample_user_001,expense,Transportation expense,62.15,Transportation,Cash,Transportation spending,2025-03-01,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_64,sample_user_001,expense,Entertainment expense,36.04,Entertainment,Cash,Entertainment spending,2025-03-20,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_65,sample_user_001,expense,Entertainment expense,41.59,Entertainment,Debit Card,Entertainment spending,2025-03-05,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_66,sample_user_001,expense,Entertainment expense,38.82,Entertainment,Cash,Entertainment spending,2025-03-19,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_67,sample_user_001,expense,Entertainment expense,32.13,Entertainment,Cash,Entertainment spending,2025-03-06,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_68,sample_user_001,expense,Healthcare expense,58.78,Healthcare,Credit Card,Healthcare spending,2025-03-14,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_69,sample_user_001,expense,Healthcare expense,56.66,Healthcare,Credit Card,Healthcare spending,2025-03-28,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_70,sample_user_001,expense,Shopping expense,90.52,Shopping,Cash,Shopping spending,2025-03-23,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_71,sample_user_001,expense,Shopping expense,77.88,Shopping,Credit Card,Shopping spending,2025-03-16,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_72,sample_user_001,expense,Utilities expense,47.89,Utilities,Credit Card,Utilities spending,2025-03-09,2026-07-14T04:17:04.496Z,2026-07-14T04:17:04.496Z
-tx_73,sample_user_001,expense,Utilities expense,61.21,Utilities,Cash,Utilities spending,2025-03-25,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_74,sample_user_001,expense,Utilities expense,50.2,Utilities,Cash,Utilities spending,2025-03-28,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_75,sample_user_001,income,Monthly Salary,5553,Salary,Direct Deposit,Salary for 2025-04,2025-04-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_76,sample_user_001,expense,Housing expense,299.95,Housing,Cash,Housing spending,2025-04-02,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_77,sample_user_001,expense,Housing expense,344.45,Housing,Debit Card,Housing spending,2025-04-09,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_78,sample_user_001,expense,Housing expense,261.93,Housing,Cash,Housing spending,2025-04-22,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_79,sample_user_001,expense,Housing expense,321.34,Housing,Cash,Housing spending,2025-04-06,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_80,sample_user_001,expense,Groceries expense,213.6,Groceries,Cash,Groceries spending,2025-04-18,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_81,sample_user_001,expense,Groceries expense,248.82,Groceries,Cash,Groceries spending,2025-04-22,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_82,sample_user_001,expense,Dining expense,150.71,Dining,Cash,Dining spending,2025-04-08,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_83,sample_user_001,expense,Dining expense,155.81,Dining,Cash,Dining spending,2025-04-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_84,sample_user_001,expense,Transportation expense,102.46,Transportation,Debit Card,Transportation spending,2025-04-08,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_85,sample_user_001,expense,Transportation expense,105.57,Transportation,Debit Card,Transportation spending,2025-04-07,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_86,sample_user_001,expense,Entertainment expense,74.01,Entertainment,Credit Card,Entertainment spending,2025-04-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_87,sample_user_001,expense,Entertainment expense,67.41,Entertainment,Debit Card,Entertainment spending,2025-04-17,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_88,sample_user_001,expense,Healthcare expense,53.33,Healthcare,Debit Card,Healthcare spending,2025-04-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_89,sample_user_001,expense,Healthcare expense,68.16,Healthcare,Credit Card,Healthcare spending,2025-04-11,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_90,sample_user_001,expense,Shopping expense,51.03,Shopping,Debit Card,Shopping spending,2025-04-19,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_91,sample_user_001,expense,Shopping expense,44.48,Shopping,Cash,Shopping spending,2025-04-27,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_92,sample_user_001,expense,Shopping expense,46.3,Shopping,Cash,Shopping spending,2025-04-28,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_93,sample_user_001,expense,Shopping expense,38.59,Shopping,Credit Card,Shopping spending,2025-04-18,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_94,sample_user_001,expense,Utilities expense,38.89,Utilities,Debit Card,Utilities spending,2025-04-08,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_95,sample_user_001,expense,Utilities expense,43.28,Utilities,Cash,Utilities spending,2025-04-14,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_96,sample_user_001,expense,Utilities expense,38.61,Utilities,Debit Card,Utilities spending,2025-04-24,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_97,sample_user_001,expense,Utilities expense,35.59,Utilities,Cash,Utilities spending,2025-04-26,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_98,sample_user_001,income,Monthly Salary,5567,Salary,Direct Deposit,Salary for 2025-05,2025-05-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_99,sample_user_001,expense,Housing expense,546.77,Housing,Credit Card,Housing spending,2025-05-20,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_100,sample_user_001,expense,Housing expense,570.44,Housing,Credit Card,Housing spending,2025-05-11,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_101,sample_user_001,expense,Groceries expense,123.22,Groceries,Cash,Groceries spending,2025-05-05,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_102,sample_user_001,expense,Groceries expense,119.37,Groceries,Cash,Groceries spending,2025-05-29,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_103,sample_user_001,expense,Groceries expense,116.32,Groceries,Credit Card,Groceries spending,2025-05-16,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_104,sample_user_001,expense,Groceries expense,110.88,Groceries,Cash,Groceries spending,2025-05-19,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_105,sample_user_001,expense,Dining expense,99.87,Dining,Credit Card,Dining spending,2025-05-13,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_106,sample_user_001,expense,Dining expense,89.62,Dining,Cash,Dining spending,2025-05-17,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_107,sample_user_001,expense,Dining expense,105.15,Dining,Debit Card,Dining spending,2025-05-03,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_108,sample_user_001,expense,Transportation expense,99.33,Transportation,Credit Card,Transportation spending,2025-05-17,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_109,sample_user_001,expense,Transportation expense,92.67,Transportation,Cash,Transportation spending,2025-05-28,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_110,sample_user_001,expense,Transportation expense,91.84,Transportation,Debit Card,Transportation spending,2025-05-24,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_111,sample_user_001,expense,Entertainment expense,83.01,Entertainment,Credit Card,Entertainment spending,2025-05-24,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_112,sample_user_001,expense,Entertainment expense,75.02,Entertainment,Credit Card,Entertainment spending,2025-05-17,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_113,sample_user_001,expense,Healthcare expense,57.41,Healthcare,Cash,Healthcare spending,2025-05-08,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_114,sample_user_001,expense,Healthcare expense,66.54,Healthcare,Cash,Healthcare spending,2025-05-16,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_115,sample_user_001,expense,Shopping expense,47.59,Shopping,Cash,Shopping spending,2025-05-30,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_116,sample_user_001,expense,Shopping expense,43.8,Shopping,Credit Card,Shopping spending,2025-05-11,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_117,sample_user_001,expense,Shopping expense,48.31,Shopping,Credit Card,Shopping spending,2025-05-24,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_118,sample_user_001,expense,Shopping expense,39.71,Shopping,Debit Card,Shopping spending,2025-05-02,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_119,sample_user_001,expense,Utilities expense,90.33,Utilities,Credit Card,Utilities spending,2025-05-02,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_120,sample_user_001,expense,Utilities expense,84.15,Utilities,Credit Card,Utilities spending,2025-05-15,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_121,sample_user_001,income,Monthly Salary,5418,Salary,Direct Deposit,Salary for 2025-06,2025-06-01,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_122,sample_user_001,expense,Housing expense,412.35,Housing,Credit Card,Housing spending,2025-06-02,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_123,sample_user_001,expense,Housing expense,407.45,Housing,Cash,Housing spending,2025-06-18,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.497Z
-tx_124,sample_user_001,expense,Housing expense,397.92,Housing,Credit Card,Housing spending,2025-06-29,2026-07-14T04:17:04.497Z,2026-07-14T04:17:04.498Z
-tx_125,sample_user_001,expense,Groceries expense,162.35,Groceries,Cash,Groceries spending,2025-06-26,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_126,sample_user_001,expense,Groceries expense,139.65,Groceries,Cash,Groceries spending,2025-06-05,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_127,sample_user_001,expense,Groceries expense,145.48,Groceries,Cash,Groceries spending,2025-06-04,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_128,sample_user_001,expense,Dining expense,119.17,Dining,Cash,Dining spending,2025-06-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_129,sample_user_001,expense,Dining expense,91.07,Dining,Credit Card,Dining spending,2025-06-14,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_130,sample_user_001,expense,Dining expense,106.69,Dining,Credit Card,Dining spending,2025-06-28,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_131,sample_user_001,expense,Transportation expense,97.27,Transportation,Credit Card,Transportation spending,2025-06-11,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_132,sample_user_001,expense,Transportation expense,83.1,Transportation,Debit Card,Transportation spending,2025-06-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_133,sample_user_001,expense,Transportation expense,84.24,Transportation,Debit Card,Transportation spending,2025-06-04,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_134,sample_user_001,expense,Entertainment expense,84.46,Entertainment,Debit Card,Entertainment spending,2025-06-21,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_135,sample_user_001,expense,Entertainment expense,65.6,Entertainment,Cash,Entertainment spending,2025-06-30,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_136,sample_user_001,expense,Healthcare expense,43.08,Healthcare,Debit Card,Healthcare spending,2025-06-03,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_137,sample_user_001,expense,Healthcare expense,39.64,Healthcare,Cash,Healthcare spending,2025-06-15,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_138,sample_user_001,expense,Healthcare expense,35.16,Healthcare,Credit Card,Healthcare spending,2025-06-13,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_139,sample_user_001,expense,Shopping expense,93.31,Shopping,Cash,Shopping spending,2025-06-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_140,sample_user_001,expense,Shopping expense,88.83,Shopping,Debit Card,Shopping spending,2025-06-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_141,sample_user_001,expense,Utilities expense,35.26,Utilities,Credit Card,Utilities spending,2025-06-10,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_142,sample_user_001,expense,Utilities expense,35.61,Utilities,Debit Card,Utilities spending,2025-06-15,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_143,sample_user_001,expense,Utilities expense,42.17,Utilities,Cash,Utilities spending,2025-06-24,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_144,sample_user_001,expense,Utilities expense,44.75,Utilities,Cash,Utilities spending,2025-06-11,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_145,sample_user_001,income,Monthly Salary,5426,Salary,Direct Deposit,Salary for 2025-07,2025-07-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_146,sample_user_001,expense,Housing expense,661.98,Housing,Cash,Housing spending,2025-07-29,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_147,sample_user_001,expense,Housing expense,547.09,Housing,Cash,Housing spending,2025-07-08,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_148,sample_user_001,expense,Groceries expense,165.96,Groceries,Cash,Groceries spending,2025-07-02,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_149,sample_user_001,expense,Groceries expense,131.81,Groceries,Cash,Groceries spending,2025-07-31,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_150,sample_user_001,expense,Groceries expense,162.86,Groceries,Debit Card,Groceries spending,2025-07-10,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_151,sample_user_001,expense,Dining expense,100.94,Dining,Credit Card,Dining spending,2025-07-26,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_152,sample_user_001,expense,Dining expense,94.01,Dining,Cash,Dining spending,2025-07-16,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_153,sample_user_001,expense,Dining expense,117.35,Dining,Credit Card,Dining spending,2025-07-24,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_154,sample_user_001,expense,Transportation expense,92.09,Transportation,Cash,Transportation spending,2025-07-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_155,sample_user_001,expense,Transportation expense,92.23,Transportation,Debit Card,Transportation spending,2025-07-08,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_156,sample_user_001,expense,Entertainment expense,149.64,Entertainment,Debit Card,Entertainment spending,2025-07-21,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_157,sample_user_001,expense,Entertainment expense,152.29,Entertainment,Credit Card,Entertainment spending,2025-07-20,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_158,sample_user_001,expense,Healthcare expense,66.2,Healthcare,Debit Card,Healthcare spending,2025-07-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_159,sample_user_001,expense,Healthcare expense,51.85,Healthcare,Credit Card,Healthcare spending,2025-07-15,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_160,sample_user_001,expense,Shopping expense,90.1,Shopping,Cash,Shopping spending,2025-07-13,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_161,sample_user_001,expense,Shopping expense,78.24,Shopping,Credit Card,Shopping spending,2025-07-31,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_162,sample_user_001,expense,Utilities expense,37.02,Utilities,Debit Card,Utilities spending,2025-07-07,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_163,sample_user_001,expense,Utilities expense,43.79,Utilities,Cash,Utilities spending,2025-07-30,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_164,sample_user_001,expense,Utilities expense,39.55,Utilities,Debit Card,Utilities spending,2025-07-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_165,sample_user_001,expense,Utilities expense,42.79,Utilities,Cash,Utilities spending,2025-07-25,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_166,sample_user_001,income,Monthly Salary,5525,Salary,Direct Deposit,Salary for 2025-08,2025-08-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_167,sample_user_001,expense,Housing expense,313.42,Housing,Credit Card,Housing spending,2025-08-25,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_168,sample_user_001,expense,Housing expense,338.97,Housing,Debit Card,Housing spending,2025-08-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_169,sample_user_001,expense,Housing expense,329.54,Housing,Debit Card,Housing spending,2025-08-14,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_170,sample_user_001,expense,Housing expense,306.45,Housing,Debit Card,Housing spending,2025-08-26,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_171,sample_user_001,expense,Groceries expense,112.71,Groceries,Credit Card,Groceries spending,2025-08-06,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_172,sample_user_001,expense,Groceries expense,110.28,Groceries,Debit Card,Groceries spending,2025-08-18,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_173,sample_user_001,expense,Groceries expense,108.33,Groceries,Debit Card,Groceries spending,2025-08-27,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_174,sample_user_001,expense,Groceries expense,109.69,Groceries,Debit Card,Groceries spending,2025-08-26,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_175,sample_user_001,expense,Dining expense,87.83,Dining,Cash,Dining spending,2025-08-07,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_176,sample_user_001,expense,Dining expense,76.05,Dining,Cash,Dining spending,2025-08-29,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_177,sample_user_001,expense,Dining expense,70.06,Dining,Debit Card,Dining spending,2025-08-15,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_178,sample_user_001,expense,Dining expense,91.31,Dining,Cash,Dining spending,2025-08-29,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_179,sample_user_001,expense,Transportation expense,45.97,Transportation,Credit Card,Transportation spending,2025-08-24,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_180,sample_user_001,expense,Transportation expense,52.67,Transportation,Cash,Transportation spending,2025-08-30,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_181,sample_user_001,expense,Transportation expense,50.7,Transportation,Credit Card,Transportation spending,2025-08-08,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_182,sample_user_001,expense,Transportation expense,54.15,Transportation,Debit Card,Transportation spending,2025-08-20,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_183,sample_user_001,expense,Entertainment expense,35.89,Entertainment,Cash,Entertainment spending,2025-08-08,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_184,sample_user_001,expense,Entertainment expense,36.27,Entertainment,Debit Card,Entertainment spending,2025-08-03,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_185,sample_user_001,expense,Entertainment expense,36.14,Entertainment,Debit Card,Entertainment spending,2025-08-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_186,sample_user_001,expense,Entertainment expense,42.47,Entertainment,Debit Card,Entertainment spending,2025-08-25,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_187,sample_user_001,expense,Healthcare expense,59.19,Healthcare,Debit Card,Healthcare spending,2025-08-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_188,sample_user_001,expense,Healthcare expense,56.14,Healthcare,Credit Card,Healthcare spending,2025-08-04,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_189,sample_user_001,expense,Shopping expense,44.75,Shopping,Credit Card,Shopping spending,2025-08-07,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_190,sample_user_001,expense,Shopping expense,42.6,Shopping,Cash,Shopping spending,2025-08-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_191,sample_user_001,expense,Shopping expense,45.66,Shopping,Debit Card,Shopping spending,2025-08-18,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_192,sample_user_001,expense,Shopping expense,45.42,Shopping,Cash,Shopping spending,2025-08-10,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_193,sample_user_001,expense,Utilities expense,81.49,Utilities,Debit Card,Utilities spending,2025-08-14,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_194,sample_user_001,expense,Utilities expense,86.79,Utilities,Debit Card,Utilities spending,2025-08-12,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_195,sample_user_001,income,Monthly Salary,5481,Salary,Direct Deposit,Salary for 2025-09,2025-09-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_196,sample_user_001,expense,Housing expense,536.41,Housing,Credit Card,Housing spending,2025-09-17,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_197,sample_user_001,expense,Housing expense,559.75,Housing,Cash,Housing spending,2025-09-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_198,sample_user_001,expense,Groceries expense,200.72,Groceries,Cash,Groceries spending,2025-09-03,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_199,sample_user_001,expense,Groceries expense,225.03,Groceries,Debit Card,Groceries spending,2025-09-23,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_200,sample_user_001,expense,Dining expense,88.19,Dining,Cash,Dining spending,2025-09-13,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_201,sample_user_001,expense,Dining expense,78.51,Dining,Credit Card,Dining spending,2025-09-10,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_202,sample_user_001,expense,Dining expense,90.28,Dining,Credit Card,Dining spending,2025-09-21,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_203,sample_user_001,expense,Dining expense,95.34,Dining,Debit Card,Dining spending,2025-09-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_204,sample_user_001,expense,Transportation expense,90.68,Transportation,Credit Card,Transportation spending,2025-09-12,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_205,sample_user_001,expense,Transportation expense,89.12,Transportation,Debit Card,Transportation spending,2025-09-04,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_206,sample_user_001,expense,Entertainment expense,77.3,Entertainment,Credit Card,Entertainment spending,2025-09-27,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_207,sample_user_001,expense,Entertainment expense,76.37,Entertainment,Credit Card,Entertainment spending,2025-09-05,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_208,sample_user_001,expense,Healthcare expense,30.81,Healthcare,Debit Card,Healthcare spending,2025-09-11,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_209,sample_user_001,expense,Healthcare expense,33.22,Healthcare,Credit Card,Healthcare spending,2025-09-11,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_210,sample_user_001,expense,Healthcare expense,33.76,Healthcare,Debit Card,Healthcare spending,2025-09-03,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_211,sample_user_001,expense,Healthcare expense,29.93,Healthcare,Credit Card,Healthcare spending,2025-09-30,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_212,sample_user_001,expense,Shopping expense,46.1,Shopping,Cash,Shopping spending,2025-09-13,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_213,sample_user_001,expense,Shopping expense,42.07,Shopping,Credit Card,Shopping spending,2025-09-29,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_214,sample_user_001,expense,Shopping expense,43.67,Shopping,Cash,Shopping spending,2025-09-17,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_215,sample_user_001,expense,Shopping expense,38.9,Shopping,Credit Card,Shopping spending,2025-09-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_216,sample_user_001,expense,Utilities expense,44.51,Utilities,Debit Card,Utilities spending,2025-09-09,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_217,sample_user_001,expense,Utilities expense,44.9,Utilities,Debit Card,Utilities spending,2025-09-10,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_218,sample_user_001,expense,Utilities expense,45.21,Utilities,Credit Card,Utilities spending,2025-09-19,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_219,sample_user_001,expense,Utilities expense,39.3,Utilities,Credit Card,Utilities spending,2025-09-12,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_220,sample_user_001,income,Monthly Salary,5509,Salary,Direct Deposit,Salary for 2025-10,2025-10-01,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_221,sample_user_001,expense,Housing expense,361.51,Housing,Debit Card,Housing spending,2025-10-24,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_222,sample_user_001,expense,Housing expense,452.49,Housing,Cash,Housing spending,2025-10-03,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_223,sample_user_001,expense,Housing expense,430.41,Housing,Debit Card,Housing spending,2025-10-30,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_224,sample_user_001,expense,Groceries expense,128.66,Groceries,Debit Card,Groceries spending,2025-10-28,2026-07-14T04:17:04.498Z,2026-07-14T04:17:04.498Z
-tx_225,sample_user_001,expense,Groceries expense,135.48,Groceries,Cash,Groceries spending,2025-10-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_226,sample_user_001,expense,Groceries expense,166.26,Groceries,Credit Card,Groceries spending,2025-10-26,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_227,sample_user_001,expense,Dining expense,147.67,Dining,Debit Card,Dining spending,2025-10-15,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_228,sample_user_001,expense,Dining expense,152.5,Dining,Credit Card,Dining spending,2025-10-21,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_229,sample_user_001,expense,Transportation expense,43.59,Transportation,Credit Card,Transportation spending,2025-10-06,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_230,sample_user_001,expense,Transportation expense,47.85,Transportation,Cash,Transportation spending,2025-10-08,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_231,sample_user_001,expense,Transportation expense,49.49,Transportation,Cash,Transportation spending,2025-10-05,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_232,sample_user_001,expense,Transportation expense,53.95,Transportation,Cash,Transportation spending,2025-10-07,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_233,sample_user_001,expense,Entertainment expense,38.75,Entertainment,Cash,Entertainment spending,2025-10-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_234,sample_user_001,expense,Entertainment expense,33.06,Entertainment,Credit Card,Entertainment spending,2025-10-15,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_235,sample_user_001,expense,Entertainment expense,38.41,Entertainment,Credit Card,Entertainment spending,2025-10-07,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_236,sample_user_001,expense,Entertainment expense,35.22,Entertainment,Credit Card,Entertainment spending,2025-10-18,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_237,sample_user_001,expense,Healthcare expense,62.08,Healthcare,Debit Card,Healthcare spending,2025-10-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_238,sample_user_001,expense,Healthcare expense,67.49,Healthcare,Cash,Healthcare spending,2025-10-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_239,sample_user_001,expense,Shopping expense,58.39,Shopping,Cash,Shopping spending,2025-10-09,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_240,sample_user_001,expense,Shopping expense,66.13,Shopping,Debit Card,Shopping spending,2025-10-31,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_241,sample_user_001,expense,Shopping expense,51.41,Shopping,Debit Card,Shopping spending,2025-10-10,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_242,sample_user_001,expense,Utilities expense,41.29,Utilities,Credit Card,Utilities spending,2025-10-26,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_243,sample_user_001,expense,Utilities expense,44.01,Utilities,Debit Card,Utilities spending,2025-10-09,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_244,sample_user_001,expense,Utilities expense,36.98,Utilities,Debit Card,Utilities spending,2025-10-11,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_245,sample_user_001,expense,Utilities expense,35.91,Utilities,Cash,Utilities spending,2025-10-26,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_246,sample_user_001,income,Monthly Salary,5455,Salary,Direct Deposit,Salary for 2025-11,2025-11-01,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_247,sample_user_001,expense,Housing expense,576.6,Housing,Debit Card,Housing spending,2025-11-10,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_248,sample_user_001,expense,Housing expense,665.97,Housing,Cash,Housing spending,2025-11-09,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_249,sample_user_001,expense,Groceries expense,106.19,Groceries,Cash,Groceries spending,2025-11-19,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_250,sample_user_001,expense,Groceries expense,110.23,Groceries,Credit Card,Groceries spending,2025-11-25,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_251,sample_user_001,expense,Groceries expense,112.1,Groceries,Cash,Groceries spending,2025-11-16,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_252,sample_user_001,expense,Groceries expense,128.8,Groceries,Credit Card,Groceries spending,2025-11-21,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_253,sample_user_001,expense,Dining expense,77.74,Dining,Debit Card,Dining spending,2025-11-08,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_254,sample_user_001,expense,Dining expense,85.46,Dining,Cash,Dining spending,2025-11-26,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_255,sample_user_001,expense,Dining expense,81.59,Dining,Credit Card,Dining spending,2025-11-30,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_256,sample_user_001,expense,Dining expense,95.61,Dining,Debit Card,Dining spending,2025-11-11,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_257,sample_user_001,expense,Transportation expense,58.67,Transportation,Credit Card,Transportation spending,2025-11-22,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_258,sample_user_001,expense,Transportation expense,75.29,Transportation,Cash,Transportation spending,2025-11-07,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_259,sample_user_001,expense,Transportation expense,57.54,Transportation,Credit Card,Transportation spending,2025-11-12,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_260,sample_user_001,expense,Entertainment expense,36.16,Entertainment,Debit Card,Entertainment spending,2025-11-22,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_261,sample_user_001,expense,Entertainment expense,35.55,Entertainment,Debit Card,Entertainment spending,2025-11-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_262,sample_user_001,expense,Entertainment expense,39.53,Entertainment,Debit Card,Entertainment spending,2025-11-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_263,sample_user_001,expense,Entertainment expense,42.35,Entertainment,Debit Card,Entertainment spending,2025-11-30,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_264,sample_user_001,expense,Healthcare expense,29.54,Healthcare,Credit Card,Healthcare spending,2025-11-11,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_265,sample_user_001,expense,Healthcare expense,26.55,Healthcare,Credit Card,Healthcare spending,2025-11-11,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_266,sample_user_001,expense,Healthcare expense,33.54,Healthcare,Cash,Healthcare spending,2025-11-20,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_267,sample_user_001,expense,Healthcare expense,26.91,Healthcare,Credit Card,Healthcare spending,2025-11-20,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_268,sample_user_001,expense,Shopping expense,211.24,Shopping,Debit Card,Shopping spending,2025-11-09,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_269,sample_user_001,expense,Shopping expense,210.48,Shopping,Debit Card,Shopping spending,2025-11-28,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_270,sample_user_001,expense,Utilities expense,34.18,Utilities,Credit Card,Utilities spending,2025-11-24,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_271,sample_user_001,expense,Utilities expense,40.11,Utilities,Credit Card,Utilities spending,2025-11-13,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_272,sample_user_001,expense,Utilities expense,37.02,Utilities,Debit Card,Utilities spending,2025-11-16,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_273,sample_user_001,expense,Utilities expense,43.55,Utilities,Cash,Utilities spending,2025-11-02,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_274,sample_user_001,income,Monthly Salary,5594,Salary,Direct Deposit,Salary for 2025-12,2025-12-01,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_275,sample_user_001,expense,Housing expense,398.35,Housing,Debit Card,Housing spending,2025-12-01,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_276,sample_user_001,expense,Housing expense,454.72,Housing,Credit Card,Housing spending,2025-12-27,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_277,sample_user_001,expense,Housing expense,364.83,Housing,Debit Card,Housing spending,2025-12-09,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_278,sample_user_001,expense,Groceries expense,252.3,Groceries,Credit Card,Groceries spending,2025-12-27,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_279,sample_user_001,expense,Groceries expense,240.58,Groceries,Debit Card,Groceries spending,2025-12-21,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_280,sample_user_001,expense,Dining expense,87.98,Dining,Debit Card,Dining spending,2025-12-29,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_281,sample_user_001,expense,Dining expense,99.25,Dining,Cash,Dining spending,2025-12-05,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_282,sample_user_001,expense,Dining expense,93.79,Dining,Debit Card,Dining spending,2025-12-02,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_283,sample_user_001,expense,Dining expense,78.84,Dining,Debit Card,Dining spending,2025-12-10,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_284,sample_user_001,expense,Transportation expense,86.92,Transportation,Debit Card,Transportation spending,2025-12-05,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_285,sample_user_001,expense,Transportation expense,113,Transportation,Credit Card,Transportation spending,2025-12-30,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_286,sample_user_001,expense,Entertainment expense,84.95,Entertainment,Cash,Entertainment spending,2025-12-06,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_287,sample_user_001,expense,Entertainment expense,76.92,Entertainment,Credit Card,Entertainment spending,2025-12-15,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_288,sample_user_001,expense,Entertainment expense,81.58,Entertainment,Debit Card,Entertainment spending,2025-12-21,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_289,sample_user_001,expense,Entertainment expense,74.04,Entertainment,Cash,Entertainment spending,2025-12-17,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_290,sample_user_001,expense,Healthcare expense,27.06,Healthcare,Cash,Healthcare spending,2025-12-25,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_291,sample_user_001,expense,Healthcare expense,32.67,Healthcare,Credit Card,Healthcare spending,2025-12-22,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_292,sample_user_001,expense,Healthcare expense,29.81,Healthcare,Debit Card,Healthcare spending,2025-12-01,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_293,sample_user_001,expense,Healthcare expense,30.13,Healthcare,Debit Card,Healthcare spending,2025-12-19,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_294,sample_user_001,expense,Shopping expense,46.06,Shopping,Credit Card,Shopping spending,2025-12-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_295,sample_user_001,expense,Shopping expense,46.47,Shopping,Credit Card,Shopping spending,2025-12-03,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_296,sample_user_001,expense,Shopping expense,50.07,Shopping,Credit Card,Shopping spending,2025-12-20,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_297,sample_user_001,expense,Shopping expense,38.43,Shopping,Credit Card,Shopping spending,2025-12-17,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_298,sample_user_001,expense,Utilities expense,44.76,Utilities,Debit Card,Utilities spending,2025-12-30,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_299,sample_user_001,expense,Utilities expense,45.86,Utilities,Credit Card,Utilities spending,2025-12-13,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_300,sample_user_001,expense,Utilities expense,42.28,Utilities,Cash,Utilities spending,2025-12-21,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_301,sample_user_001,expense,Utilities expense,42.96,Utilities,Credit Card,Utilities spending,2025-12-14,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_302,sample_user_001,expense,Catering Event,890,Dining,Credit Card,ANOMALY: unusually high Dining charge,2025-03-15,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_303,sample_user_001,expense,Electronics Purchase,1250,Shopping,Credit Card,ANOMALY: unusually high Shopping charge,2025-02-28,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_304,sample_user_001,expense,Emergency Dental,780,Healthcare,Credit Card,ANOMALY: unusually high Healthcare charge,2025-10-08,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
-tx_305,sample_user_001,expense,Flight Booking,620,Transportation,Credit Card,ANOMALY: unusually high Transportation charge,2025-05-20,2026-07-14T04:17:04.499Z,2026-07-14T04:17:04.499Z
+tx_1,sample_user_001,income,Monthly Salary,5586,Salary,Direct Deposit,Salary for 2025-01,2025-01-01,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_2,sample_user_001,expense,Housing expense,144.14,Housing,Debit Card,Housing spending,2025-01-01,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_3,sample_user_001,expense,Housing expense,158.25,Housing,Credit Card,Housing spending,2025-01-30,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_4,sample_user_001,expense,Housing expense,156.81,Housing,Credit Card,Housing spending,2025-01-12,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_5,sample_user_001,expense,Housing expense,157.03,Housing,Debit Card,Housing spending,2025-01-14,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_6,sample_user_001,expense,Housing expense,158.41,Housing,Debit Card,Housing spending,2025-01-22,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_7,sample_user_001,expense,Housing expense,160.9,Housing,Credit Card,Housing spending,2025-01-09,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_8,sample_user_001,expense,Housing expense,165.01,Housing,Credit Card,Housing spending,2025-01-22,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_9,sample_user_001,expense,Housing expense,157.26,Housing,Cash,Housing spending,2025-01-02,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_10,sample_user_001,expense,Groceries expense,92.18,Groceries,Debit Card,Groceries spending,2025-01-31,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_11,sample_user_001,expense,Groceries expense,81.34,Groceries,Credit Card,Groceries spending,2025-01-04,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_12,sample_user_001,expense,Groceries expense,92.39,Groceries,Debit Card,Groceries spending,2025-01-02,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_13,sample_user_001,expense,Groceries expense,91.14,Groceries,Cash,Groceries spending,2025-01-10,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_14,sample_user_001,expense,Groceries expense,81.04,Groceries,Debit Card,Groceries spending,2025-01-07,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_15,sample_user_001,expense,Dining expense,38.62,Dining,Cash,Dining spending,2025-01-22,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_16,sample_user_001,expense,Dining expense,39.12,Dining,Debit Card,Dining spending,2025-01-22,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_17,sample_user_001,expense,Dining expense,35.78,Dining,Debit Card,Dining spending,2025-01-11,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_18,sample_user_001,expense,Dining expense,36.24,Dining,Debit Card,Dining spending,2025-01-04,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_19,sample_user_001,expense,Dining expense,35.47,Dining,Debit Card,Dining spending,2025-01-09,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_20,sample_user_001,expense,Dining expense,36.25,Dining,Cash,Dining spending,2025-01-29,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_21,sample_user_001,expense,Dining expense,32.3,Dining,Debit Card,Dining spending,2025-01-12,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_22,sample_user_001,expense,Dining expense,36.74,Dining,Cash,Dining spending,2025-01-21,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_23,sample_user_001,expense,Transportation expense,30.45,Transportation,Debit Card,Transportation spending,2025-01-02,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_24,sample_user_001,expense,Transportation expense,38.18,Transportation,Credit Card,Transportation spending,2025-01-11,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_25,sample_user_001,expense,Transportation expense,29.18,Transportation,Debit Card,Transportation spending,2025-01-25,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_26,sample_user_001,expense,Transportation expense,30.67,Transportation,Cash,Transportation spending,2025-01-29,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_27,sample_user_001,expense,Transportation expense,37.81,Transportation,Credit Card,Transportation spending,2025-01-23,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_28,sample_user_001,expense,Transportation expense,37.41,Transportation,Credit Card,Transportation spending,2025-01-01,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_29,sample_user_001,expense,Entertainment expense,17.56,Entertainment,Cash,Entertainment spending,2025-01-01,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_30,sample_user_001,expense,Entertainment expense,16.19,Entertainment,Credit Card,Entertainment spending,2025-01-21,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_31,sample_user_001,expense,Entertainment expense,17.09,Entertainment,Credit Card,Entertainment spending,2025-01-28,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_32,sample_user_001,expense,Entertainment expense,20.2,Entertainment,Cash,Entertainment spending,2025-01-03,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_33,sample_user_001,expense,Entertainment expense,18.05,Entertainment,Debit Card,Entertainment spending,2025-01-06,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_34,sample_user_001,expense,Entertainment expense,17.22,Entertainment,Cash,Entertainment spending,2025-01-03,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_35,sample_user_001,expense,Entertainment expense,16.14,Entertainment,Credit Card,Entertainment spending,2025-01-19,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_36,sample_user_001,expense,Entertainment expense,19.44,Entertainment,Credit Card,Entertainment spending,2025-01-21,2026-07-14T04:57:00.016Z,2026-07-14T04:57:00.016Z
+tx_37,sample_user_001,expense,Healthcare expense,15.77,Healthcare,Debit Card,Healthcare spending,2025-01-26,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_38,sample_user_001,expense,Healthcare expense,18.36,Healthcare,Cash,Healthcare spending,2025-01-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_39,sample_user_001,expense,Healthcare expense,18.61,Healthcare,Credit Card,Healthcare spending,2025-01-12,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_40,sample_user_001,expense,Healthcare expense,19.1,Healthcare,Credit Card,Healthcare spending,2025-01-21,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_41,sample_user_001,expense,Healthcare expense,19.53,Healthcare,Debit Card,Healthcare spending,2025-01-17,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_42,sample_user_001,expense,Healthcare expense,16.63,Healthcare,Debit Card,Healthcare spending,2025-01-24,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_43,sample_user_001,expense,Healthcare expense,15.63,Healthcare,Cash,Healthcare spending,2025-01-21,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_44,sample_user_001,expense,Shopping expense,22.46,Shopping,Cash,Shopping spending,2025-01-18,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_45,sample_user_001,expense,Shopping expense,21.78,Shopping,Cash,Shopping spending,2025-01-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_46,sample_user_001,expense,Shopping expense,20.8,Shopping,Debit Card,Shopping spending,2025-01-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_47,sample_user_001,expense,Shopping expense,20.58,Shopping,Credit Card,Shopping spending,2025-01-08,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_48,sample_user_001,expense,Shopping expense,23.6,Shopping,Debit Card,Shopping spending,2025-01-08,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_49,sample_user_001,expense,Shopping expense,24.42,Shopping,Debit Card,Shopping spending,2025-01-27,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_50,sample_user_001,expense,Shopping expense,22.66,Shopping,Cash,Shopping spending,2025-01-21,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_51,sample_user_001,expense,Shopping expense,24.22,Shopping,Cash,Shopping spending,2025-01-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_52,sample_user_001,expense,Utilities expense,24.58,Utilities,Debit Card,Utilities spending,2025-01-11,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_53,sample_user_001,expense,Utilities expense,20.8,Utilities,Debit Card,Utilities spending,2025-01-14,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_54,sample_user_001,expense,Utilities expense,21.57,Utilities,Debit Card,Utilities spending,2025-01-05,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_55,sample_user_001,expense,Utilities expense,22.64,Utilities,Credit Card,Utilities spending,2025-01-31,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_56,sample_user_001,expense,Utilities expense,22.66,Utilities,Credit Card,Utilities spending,2025-01-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_57,sample_user_001,expense,Utilities expense,21.41,Utilities,Debit Card,Utilities spending,2025-01-09,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_58,sample_user_001,expense,Utilities expense,22.33,Utilities,Debit Card,Utilities spending,2025-01-17,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_59,sample_user_001,income,Monthly Salary,5540,Salary,Direct Deposit,Salary for 2025-02,2025-02-01,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_60,sample_user_001,expense,Housing expense,180.88,Housing,Credit Card,Housing spending,2025-02-23,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_61,sample_user_001,expense,Housing expense,185.18,Housing,Debit Card,Housing spending,2025-02-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_62,sample_user_001,expense,Housing expense,167.28,Housing,Debit Card,Housing spending,2025-02-08,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_63,sample_user_001,expense,Housing expense,188.41,Housing,Credit Card,Housing spending,2025-02-01,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_64,sample_user_001,expense,Housing expense,149.93,Housing,Debit Card,Housing spending,2025-02-24,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_65,sample_user_001,expense,Housing expense,153.5,Housing,Cash,Housing spending,2025-02-19,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_66,sample_user_001,expense,Housing expense,176.81,Housing,Cash,Housing spending,2025-02-07,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_67,sample_user_001,expense,Groceries expense,71.03,Groceries,Debit Card,Groceries spending,2025-02-18,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_68,sample_user_001,expense,Groceries expense,86.07,Groceries,Cash,Groceries spending,2025-02-26,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_69,sample_user_001,expense,Groceries expense,74.59,Groceries,Debit Card,Groceries spending,2025-02-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_70,sample_user_001,expense,Groceries expense,83.38,Groceries,Credit Card,Groceries spending,2025-02-27,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_71,sample_user_001,expense,Groceries expense,83.67,Groceries,Credit Card,Groceries spending,2025-02-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_72,sample_user_001,expense,Groceries expense,83.33,Groceries,Credit Card,Groceries spending,2025-02-16,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_73,sample_user_001,expense,Dining expense,64.37,Dining,Cash,Dining spending,2025-02-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_74,sample_user_001,expense,Dining expense,51.89,Dining,Cash,Dining spending,2025-02-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_75,sample_user_001,expense,Dining expense,55.14,Dining,Debit Card,Dining spending,2025-02-02,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_76,sample_user_001,expense,Dining expense,56.23,Dining,Credit Card,Dining spending,2025-02-01,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_77,sample_user_001,expense,Dining expense,50.48,Dining,Credit Card,Dining spending,2025-02-02,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_78,sample_user_001,expense,Transportation expense,32.22,Transportation,Cash,Transportation spending,2025-02-14,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_79,sample_user_001,expense,Transportation expense,31.4,Transportation,Credit Card,Transportation spending,2025-02-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_80,sample_user_001,expense,Transportation expense,30.63,Transportation,Cash,Transportation spending,2025-02-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_81,sample_user_001,expense,Transportation expense,31.18,Transportation,Debit Card,Transportation spending,2025-02-10,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_82,sample_user_001,expense,Transportation expense,31.52,Transportation,Credit Card,Transportation spending,2025-02-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_83,sample_user_001,expense,Transportation expense,25.3,Transportation,Debit Card,Transportation spending,2025-02-11,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_84,sample_user_001,expense,Transportation expense,32.42,Transportation,Credit Card,Transportation spending,2025-02-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_85,sample_user_001,expense,Entertainment expense,19.87,Entertainment,Credit Card,Entertainment spending,2025-02-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_86,sample_user_001,expense,Entertainment expense,19.99,Entertainment,Cash,Entertainment spending,2025-02-27,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_87,sample_user_001,expense,Entertainment expense,19.94,Entertainment,Credit Card,Entertainment spending,2025-02-16,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_88,sample_user_001,expense,Entertainment expense,20.48,Entertainment,Cash,Entertainment spending,2025-02-23,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_89,sample_user_001,expense,Entertainment expense,24.15,Entertainment,Cash,Entertainment spending,2025-02-23,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_90,sample_user_001,expense,Entertainment expense,23.75,Entertainment,Credit Card,Entertainment spending,2025-02-02,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_91,sample_user_001,expense,Entertainment expense,23.3,Entertainment,Credit Card,Entertainment spending,2025-02-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_92,sample_user_001,expense,Healthcare expense,22.55,Healthcare,Credit Card,Healthcare spending,2025-02-09,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_93,sample_user_001,expense,Healthcare expense,17.57,Healthcare,Credit Card,Healthcare spending,2025-02-21,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_94,sample_user_001,expense,Healthcare expense,17.25,Healthcare,Cash,Healthcare spending,2025-02-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_95,sample_user_001,expense,Healthcare expense,22.84,Healthcare,Credit Card,Healthcare spending,2025-02-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_96,sample_user_001,expense,Healthcare expense,19.44,Healthcare,Credit Card,Healthcare spending,2025-02-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_97,sample_user_001,expense,Healthcare expense,20,Healthcare,Cash,Healthcare spending,2025-02-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_98,sample_user_001,expense,Shopping expense,32.17,Shopping,Credit Card,Shopping spending,2025-02-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_99,sample_user_001,expense,Shopping expense,30.78,Shopping,Credit Card,Shopping spending,2025-02-07,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_100,sample_user_001,expense,Shopping expense,28.95,Shopping,Cash,Shopping spending,2025-02-10,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_101,sample_user_001,expense,Shopping expense,28.05,Shopping,Debit Card,Shopping spending,2025-02-14,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_102,sample_user_001,expense,Shopping expense,28.06,Shopping,Debit Card,Shopping spending,2025-02-22,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_103,sample_user_001,expense,Shopping expense,34.06,Shopping,Cash,Shopping spending,2025-02-08,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_104,sample_user_001,expense,Utilities expense,28.34,Utilities,Cash,Utilities spending,2025-02-10,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_105,sample_user_001,expense,Utilities expense,33.59,Utilities,Debit Card,Utilities spending,2025-02-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_106,sample_user_001,expense,Utilities expense,29.58,Utilities,Credit Card,Utilities spending,2025-02-19,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_107,sample_user_001,expense,Utilities expense,35.64,Utilities,Debit Card,Utilities spending,2025-02-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_108,sample_user_001,expense,Utilities expense,28.02,Utilities,Debit Card,Utilities spending,2025-02-23,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_109,sample_user_001,income,Monthly Salary,5578,Salary,Direct Deposit,Salary for 2025-03,2025-03-01,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_110,sample_user_001,expense,Housing expense,200.56,Housing,Credit Card,Housing spending,2025-03-26,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_111,sample_user_001,expense,Housing expense,185,Housing,Cash,Housing spending,2025-03-21,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_112,sample_user_001,expense,Housing expense,183.28,Housing,Credit Card,Housing spending,2025-03-28,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_113,sample_user_001,expense,Housing expense,205.18,Housing,Debit Card,Housing spending,2025-03-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_114,sample_user_001,expense,Housing expense,200.08,Housing,Credit Card,Housing spending,2025-03-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_115,sample_user_001,expense,Housing expense,185.39,Housing,Debit Card,Housing spending,2025-03-06,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_116,sample_user_001,expense,Groceries expense,66.37,Groceries,Debit Card,Groceries spending,2025-03-07,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_117,sample_user_001,expense,Groceries expense,65.54,Groceries,Credit Card,Groceries spending,2025-03-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_118,sample_user_001,expense,Groceries expense,64.33,Groceries,Cash,Groceries spending,2025-03-05,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_119,sample_user_001,expense,Groceries expense,76.46,Groceries,Debit Card,Groceries spending,2025-03-19,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_120,sample_user_001,expense,Groceries expense,73.11,Groceries,Debit Card,Groceries spending,2025-03-29,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_121,sample_user_001,expense,Groceries expense,66.75,Groceries,Credit Card,Groceries spending,2025-03-03,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_122,sample_user_001,expense,Dining expense,38.67,Dining,Credit Card,Dining spending,2025-03-15,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_123,sample_user_001,expense,Dining expense,44.9,Dining,Credit Card,Dining spending,2025-03-20,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_124,sample_user_001,expense,Dining expense,35.89,Dining,Credit Card,Dining spending,2025-03-26,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_125,sample_user_001,expense,Dining expense,39.73,Dining,Debit Card,Dining spending,2025-03-17,2026-07-14T04:57:00.017Z,2026-07-14T04:57:00.017Z
+tx_126,sample_user_001,expense,Dining expense,39.85,Dining,Credit Card,Dining spending,2025-03-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_127,sample_user_001,expense,Dining expense,42.69,Dining,Credit Card,Dining spending,2025-03-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_128,sample_user_001,expense,Dining expense,45.38,Dining,Debit Card,Dining spending,2025-03-15,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_129,sample_user_001,expense,Transportation expense,22.43,Transportation,Cash,Transportation spending,2025-03-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_130,sample_user_001,expense,Transportation expense,27.05,Transportation,Credit Card,Transportation spending,2025-03-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_131,sample_user_001,expense,Transportation expense,27.67,Transportation,Debit Card,Transportation spending,2025-03-26,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_132,sample_user_001,expense,Transportation expense,25.64,Transportation,Cash,Transportation spending,2025-03-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_133,sample_user_001,expense,Transportation expense,26.91,Transportation,Debit Card,Transportation spending,2025-03-03,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_134,sample_user_001,expense,Transportation expense,23.98,Transportation,Cash,Transportation spending,2025-03-15,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_135,sample_user_001,expense,Transportation expense,27.5,Transportation,Debit Card,Transportation spending,2025-03-21,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_136,sample_user_001,expense,Transportation expense,22.91,Transportation,Debit Card,Transportation spending,2025-03-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_137,sample_user_001,expense,Entertainment expense,18.42,Entertainment,Credit Card,Entertainment spending,2025-03-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_138,sample_user_001,expense,Entertainment expense,19.97,Entertainment,Credit Card,Entertainment spending,2025-03-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_139,sample_user_001,expense,Entertainment expense,19.24,Entertainment,Credit Card,Entertainment spending,2025-03-21,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_140,sample_user_001,expense,Entertainment expense,21.02,Entertainment,Cash,Entertainment spending,2025-03-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_141,sample_user_001,expense,Entertainment expense,20.95,Entertainment,Debit Card,Entertainment spending,2025-03-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_142,sample_user_001,expense,Entertainment expense,18.89,Entertainment,Debit Card,Entertainment spending,2025-03-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_143,sample_user_001,expense,Entertainment expense,20.72,Entertainment,Credit Card,Entertainment spending,2025-03-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_144,sample_user_001,expense,Entertainment expense,16.83,Entertainment,Credit Card,Entertainment spending,2025-03-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_145,sample_user_001,expense,Healthcare expense,18.84,Healthcare,Credit Card,Healthcare spending,2025-03-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_146,sample_user_001,expense,Healthcare expense,20.02,Healthcare,Debit Card,Healthcare spending,2025-03-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_147,sample_user_001,expense,Healthcare expense,21.58,Healthcare,Credit Card,Healthcare spending,2025-03-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_148,sample_user_001,expense,Healthcare expense,18.53,Healthcare,Debit Card,Healthcare spending,2025-03-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_149,sample_user_001,expense,Healthcare expense,21.51,Healthcare,Debit Card,Healthcare spending,2025-03-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_150,sample_user_001,expense,Healthcare expense,17.2,Healthcare,Cash,Healthcare spending,2025-03-21,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_151,sample_user_001,expense,Shopping expense,19.73,Shopping,Cash,Shopping spending,2025-03-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_152,sample_user_001,expense,Shopping expense,22.85,Shopping,Cash,Shopping spending,2025-03-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_153,sample_user_001,expense,Shopping expense,25.06,Shopping,Cash,Shopping spending,2025-03-23,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_154,sample_user_001,expense,Shopping expense,23.07,Shopping,Cash,Shopping spending,2025-03-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_155,sample_user_001,expense,Shopping expense,20.54,Shopping,Credit Card,Shopping spending,2025-03-04,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_156,sample_user_001,expense,Shopping expense,20.12,Shopping,Credit Card,Shopping spending,2025-03-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_157,sample_user_001,expense,Shopping expense,22.85,Shopping,Debit Card,Shopping spending,2025-03-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_158,sample_user_001,expense,Shopping expense,24.33,Shopping,Cash,Shopping spending,2025-03-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_159,sample_user_001,expense,Utilities expense,19.54,Utilities,Debit Card,Utilities spending,2025-03-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_160,sample_user_001,expense,Utilities expense,20.1,Utilities,Credit Card,Utilities spending,2025-03-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_161,sample_user_001,expense,Utilities expense,20.74,Utilities,Credit Card,Utilities spending,2025-03-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_162,sample_user_001,expense,Utilities expense,21.35,Utilities,Debit Card,Utilities spending,2025-03-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_163,sample_user_001,expense,Utilities expense,19.92,Utilities,Credit Card,Utilities spending,2025-03-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_164,sample_user_001,expense,Utilities expense,21.89,Utilities,Debit Card,Utilities spending,2025-03-17,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_165,sample_user_001,expense,Utilities expense,17.41,Utilities,Credit Card,Utilities spending,2025-03-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_166,sample_user_001,expense,Utilities expense,17.72,Utilities,Credit Card,Utilities spending,2025-03-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_167,sample_user_001,income,Monthly Salary,5529,Salary,Direct Deposit,Salary for 2025-04,2025-04-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_168,sample_user_001,expense,Housing expense,195.28,Housing,Credit Card,Housing spending,2025-04-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_169,sample_user_001,expense,Housing expense,171.84,Housing,Cash,Housing spending,2025-04-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_170,sample_user_001,expense,Housing expense,209.45,Housing,Debit Card,Housing spending,2025-04-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_171,sample_user_001,expense,Housing expense,210.12,Housing,Debit Card,Housing spending,2025-04-10,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_172,sample_user_001,expense,Housing expense,218.69,Housing,Credit Card,Housing spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_173,sample_user_001,expense,Housing expense,203.16,Housing,Debit Card,Housing spending,2025-04-15,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_174,sample_user_001,expense,Groceries expense,65,Groceries,Cash,Groceries spending,2025-04-08,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_175,sample_user_001,expense,Groceries expense,66.08,Groceries,Cash,Groceries spending,2025-04-17,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_176,sample_user_001,expense,Groceries expense,70.4,Groceries,Cash,Groceries spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_177,sample_user_001,expense,Groceries expense,77.22,Groceries,Cash,Groceries spending,2025-04-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_178,sample_user_001,expense,Groceries expense,76.94,Groceries,Cash,Groceries spending,2025-04-08,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_179,sample_user_001,expense,Groceries expense,79.55,Groceries,Debit Card,Groceries spending,2025-04-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_180,sample_user_001,expense,Dining expense,41.06,Dining,Credit Card,Dining spending,2025-04-07,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_181,sample_user_001,expense,Dining expense,41.08,Dining,Debit Card,Dining spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_182,sample_user_001,expense,Dining expense,48.97,Dining,Cash,Dining spending,2025-04-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_183,sample_user_001,expense,Dining expense,48.25,Dining,Debit Card,Dining spending,2025-04-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_184,sample_user_001,expense,Dining expense,45.93,Dining,Cash,Dining spending,2025-04-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_185,sample_user_001,expense,Dining expense,36.67,Dining,Cash,Dining spending,2025-04-30,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_186,sample_user_001,expense,Dining expense,38.37,Dining,Debit Card,Dining spending,2025-04-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_187,sample_user_001,expense,Transportation expense,25.92,Transportation,Cash,Transportation spending,2025-04-23,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_188,sample_user_001,expense,Transportation expense,26.3,Transportation,Cash,Transportation spending,2025-04-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_189,sample_user_001,expense,Transportation expense,22.32,Transportation,Cash,Transportation spending,2025-04-10,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_190,sample_user_001,expense,Transportation expense,27.24,Transportation,Debit Card,Transportation spending,2025-04-03,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_191,sample_user_001,expense,Transportation expense,22.61,Transportation,Cash,Transportation spending,2025-04-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_192,sample_user_001,expense,Transportation expense,24.78,Transportation,Credit Card,Transportation spending,2025-04-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_193,sample_user_001,expense,Transportation expense,24.39,Transportation,Cash,Transportation spending,2025-04-29,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_194,sample_user_001,expense,Transportation expense,23.01,Transportation,Debit Card,Transportation spending,2025-04-08,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_195,sample_user_001,expense,Entertainment expense,18.65,Entertainment,Cash,Entertainment spending,2025-04-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_196,sample_user_001,expense,Entertainment expense,22.22,Entertainment,Debit Card,Entertainment spending,2025-04-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_197,sample_user_001,expense,Entertainment expense,18.72,Entertainment,Cash,Entertainment spending,2025-04-20,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_198,sample_user_001,expense,Entertainment expense,23.34,Entertainment,Cash,Entertainment spending,2025-04-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_199,sample_user_001,expense,Entertainment expense,21.46,Entertainment,Credit Card,Entertainment spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_200,sample_user_001,expense,Entertainment expense,22.21,Entertainment,Cash,Entertainment spending,2025-04-07,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_201,sample_user_001,expense,Entertainment expense,22.75,Entertainment,Credit Card,Entertainment spending,2025-04-20,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_202,sample_user_001,expense,Healthcare expense,19.5,Healthcare,Credit Card,Healthcare spending,2025-04-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_203,sample_user_001,expense,Healthcare expense,17.14,Healthcare,Credit Card,Healthcare spending,2025-04-04,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_204,sample_user_001,expense,Healthcare expense,21.56,Healthcare,Debit Card,Healthcare spending,2025-04-26,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_205,sample_user_001,expense,Healthcare expense,22.32,Healthcare,Credit Card,Healthcare spending,2025-04-10,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_206,sample_user_001,expense,Healthcare expense,21.11,Healthcare,Credit Card,Healthcare spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_207,sample_user_001,expense,Healthcare expense,21.48,Healthcare,Credit Card,Healthcare spending,2025-04-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_208,sample_user_001,expense,Shopping expense,22.42,Shopping,Cash,Shopping spending,2025-04-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_209,sample_user_001,expense,Shopping expense,23.51,Shopping,Cash,Shopping spending,2025-04-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_210,sample_user_001,expense,Shopping expense,22.79,Shopping,Cash,Shopping spending,2025-04-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_211,sample_user_001,expense,Shopping expense,27.49,Shopping,Debit Card,Shopping spending,2025-04-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_212,sample_user_001,expense,Shopping expense,27.89,Shopping,Debit Card,Shopping spending,2025-04-23,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_213,sample_user_001,expense,Shopping expense,24.37,Shopping,Cash,Shopping spending,2025-04-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_214,sample_user_001,expense,Shopping expense,25.42,Shopping,Debit Card,Shopping spending,2025-04-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_215,sample_user_001,expense,Utilities expense,35.91,Utilities,Credit Card,Utilities spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_216,sample_user_001,expense,Utilities expense,27.95,Utilities,Cash,Utilities spending,2025-04-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_217,sample_user_001,expense,Utilities expense,34.26,Utilities,Debit Card,Utilities spending,2025-04-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_218,sample_user_001,expense,Utilities expense,29.07,Utilities,Cash,Utilities spending,2025-04-16,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_219,sample_user_001,expense,Utilities expense,31.2,Utilities,Credit Card,Utilities spending,2025-04-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_220,sample_user_001,income,Monthly Salary,5401,Salary,Direct Deposit,Salary for 2025-05,2025-05-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_221,sample_user_001,expense,Housing expense,227.04,Housing,Debit Card,Housing spending,2025-05-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_222,sample_user_001,expense,Housing expense,195.48,Housing,Credit Card,Housing spending,2025-05-26,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_223,sample_user_001,expense,Housing expense,194.13,Housing,Debit Card,Housing spending,2025-05-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_224,sample_user_001,expense,Housing expense,218.28,Housing,Debit Card,Housing spending,2025-05-29,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_225,sample_user_001,expense,Housing expense,225.37,Housing,Credit Card,Housing spending,2025-05-16,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_226,sample_user_001,expense,Housing expense,180.03,Housing,Debit Card,Housing spending,2025-05-27,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_227,sample_user_001,expense,Groceries expense,70.71,Groceries,Credit Card,Groceries spending,2025-05-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_228,sample_user_001,expense,Groceries expense,71.51,Groceries,Credit Card,Groceries spending,2025-05-31,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_229,sample_user_001,expense,Groceries expense,67.53,Groceries,Cash,Groceries spending,2025-05-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_230,sample_user_001,expense,Groceries expense,64.91,Groceries,Credit Card,Groceries spending,2025-05-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_231,sample_user_001,expense,Groceries expense,66.89,Groceries,Debit Card,Groceries spending,2025-05-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_232,sample_user_001,expense,Groceries expense,69.43,Groceries,Credit Card,Groceries spending,2025-05-07,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_233,sample_user_001,expense,Groceries expense,70.77,Groceries,Credit Card,Groceries spending,2025-05-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_234,sample_user_001,expense,Dining expense,50.89,Dining,Cash,Dining spending,2025-05-27,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_235,sample_user_001,expense,Dining expense,55.49,Dining,Credit Card,Dining spending,2025-05-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_236,sample_user_001,expense,Dining expense,45.32,Dining,Credit Card,Dining spending,2025-05-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_237,sample_user_001,expense,Dining expense,52.9,Dining,Credit Card,Dining spending,2025-05-10,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_238,sample_user_001,expense,Dining expense,52.81,Dining,Cash,Dining spending,2025-05-08,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_239,sample_user_001,expense,Dining expense,51.89,Dining,Debit Card,Dining spending,2025-05-17,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_240,sample_user_001,expense,Transportation expense,32.85,Transportation,Debit Card,Transportation spending,2025-05-31,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_241,sample_user_001,expense,Transportation expense,38.42,Transportation,Credit Card,Transportation spending,2025-05-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_242,sample_user_001,expense,Transportation expense,34.26,Transportation,Cash,Transportation spending,2025-05-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_243,sample_user_001,expense,Transportation expense,39.92,Transportation,Cash,Transportation spending,2025-05-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_244,sample_user_001,expense,Transportation expense,39.48,Transportation,Debit Card,Transportation spending,2025-05-16,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_245,sample_user_001,expense,Transportation expense,40.39,Transportation,Debit Card,Transportation spending,2025-05-07,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_246,sample_user_001,expense,Transportation expense,42.6,Transportation,Cash,Transportation spending,2025-05-20,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_247,sample_user_001,expense,Entertainment expense,21.84,Entertainment,Credit Card,Entertainment spending,2025-05-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_248,sample_user_001,expense,Entertainment expense,21.64,Entertainment,Credit Card,Entertainment spending,2025-05-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_249,sample_user_001,expense,Entertainment expense,19.11,Entertainment,Debit Card,Entertainment spending,2025-05-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_250,sample_user_001,expense,Entertainment expense,24.01,Entertainment,Credit Card,Entertainment spending,2025-05-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_251,sample_user_001,expense,Entertainment expense,22.64,Entertainment,Cash,Entertainment spending,2025-05-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_252,sample_user_001,expense,Entertainment expense,20.54,Entertainment,Cash,Entertainment spending,2025-05-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_253,sample_user_001,expense,Entertainment expense,23.01,Entertainment,Cash,Entertainment spending,2025-05-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_254,sample_user_001,expense,Healthcare expense,16.54,Healthcare,Cash,Healthcare spending,2025-05-03,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_255,sample_user_001,expense,Healthcare expense,15.15,Healthcare,Credit Card,Healthcare spending,2025-05-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_256,sample_user_001,expense,Healthcare expense,12.93,Healthcare,Cash,Healthcare spending,2025-05-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_257,sample_user_001,expense,Healthcare expense,15.11,Healthcare,Debit Card,Healthcare spending,2025-05-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_258,sample_user_001,expense,Healthcare expense,15.55,Healthcare,Credit Card,Healthcare spending,2025-05-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_259,sample_user_001,expense,Healthcare expense,16.1,Healthcare,Cash,Healthcare spending,2025-05-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_260,sample_user_001,expense,Healthcare expense,15.07,Healthcare,Debit Card,Healthcare spending,2025-05-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_261,sample_user_001,expense,Healthcare expense,15.93,Healthcare,Cash,Healthcare spending,2025-05-20,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_262,sample_user_001,expense,Shopping expense,34.14,Shopping,Cash,Shopping spending,2025-05-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_263,sample_user_001,expense,Shopping expense,25.99,Shopping,Cash,Shopping spending,2025-05-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_264,sample_user_001,expense,Shopping expense,29.36,Shopping,Debit Card,Shopping spending,2025-05-18,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_265,sample_user_001,expense,Shopping expense,30.68,Shopping,Credit Card,Shopping spending,2025-05-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_266,sample_user_001,expense,Shopping expense,33.5,Shopping,Credit Card,Shopping spending,2025-05-21,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_267,sample_user_001,expense,Shopping expense,27.79,Shopping,Credit Card,Shopping spending,2025-05-20,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_268,sample_user_001,expense,Utilities expense,30.49,Utilities,Cash,Utilities spending,2025-05-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_269,sample_user_001,expense,Utilities expense,27.28,Utilities,Debit Card,Utilities spending,2025-05-27,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_270,sample_user_001,expense,Utilities expense,24.92,Utilities,Debit Card,Utilities spending,2025-05-06,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_271,sample_user_001,expense,Utilities expense,24.56,Utilities,Credit Card,Utilities spending,2025-05-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_272,sample_user_001,expense,Utilities expense,29.52,Utilities,Debit Card,Utilities spending,2025-05-19,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_273,sample_user_001,expense,Utilities expense,29,Utilities,Debit Card,Utilities spending,2025-05-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_274,sample_user_001,income,Monthly Salary,5505,Salary,Direct Deposit,Salary for 2025-06,2025-06-01,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_275,sample_user_001,expense,Housing expense,223.59,Housing,Credit Card,Housing spending,2025-06-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_276,sample_user_001,expense,Housing expense,219.14,Housing,Credit Card,Housing spending,2025-06-11,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_277,sample_user_001,expense,Housing expense,182.82,Housing,Debit Card,Housing spending,2025-06-21,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_278,sample_user_001,expense,Housing expense,171.41,Housing,Debit Card,Housing spending,2025-06-22,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_279,sample_user_001,expense,Housing expense,175.77,Housing,Credit Card,Housing spending,2025-06-24,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_280,sample_user_001,expense,Housing expense,221.26,Housing,Cash,Housing spending,2025-06-02,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_281,sample_user_001,expense,Groceries expense,98.52,Groceries,Debit Card,Groceries spending,2025-06-16,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_282,sample_user_001,expense,Groceries expense,101.37,Groceries,Debit Card,Groceries spending,2025-06-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_283,sample_user_001,expense,Groceries expense,97.11,Groceries,Credit Card,Groceries spending,2025-06-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_284,sample_user_001,expense,Groceries expense,84.96,Groceries,Cash,Groceries spending,2025-06-16,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_285,sample_user_001,expense,Groceries expense,79.65,Groceries,Credit Card,Groceries spending,2025-06-29,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_286,sample_user_001,expense,Dining expense,44.2,Dining,Cash,Dining spending,2025-06-27,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_287,sample_user_001,expense,Dining expense,34.7,Dining,Credit Card,Dining spending,2025-06-30,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_288,sample_user_001,expense,Dining expense,37.39,Dining,Credit Card,Dining spending,2025-06-25,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_289,sample_user_001,expense,Dining expense,42.85,Dining,Cash,Dining spending,2025-06-09,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_290,sample_user_001,expense,Dining expense,34,Dining,Credit Card,Dining spending,2025-06-13,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_291,sample_user_001,expense,Dining expense,34.37,Dining,Credit Card,Dining spending,2025-06-05,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_292,sample_user_001,expense,Dining expense,43.34,Dining,Credit Card,Dining spending,2025-06-10,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_293,sample_user_001,expense,Dining expense,35.02,Dining,Cash,Dining spending,2025-06-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_294,sample_user_001,expense,Transportation expense,46.77,Transportation,Credit Card,Transportation spending,2025-06-07,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_295,sample_user_001,expense,Transportation expense,43.15,Transportation,Credit Card,Transportation spending,2025-06-28,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_296,sample_user_001,expense,Transportation expense,40.53,Transportation,Debit Card,Transportation spending,2025-06-14,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_297,sample_user_001,expense,Transportation expense,37.82,Transportation,Credit Card,Transportation spending,2025-06-12,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_298,sample_user_001,expense,Transportation expense,38.88,Transportation,Cash,Transportation spending,2025-06-04,2026-07-14T04:57:00.018Z,2026-07-14T04:57:00.018Z
+tx_299,sample_user_001,expense,Transportation expense,39.72,Transportation,Cash,Transportation spending,2025-06-27,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_300,sample_user_001,expense,Entertainment expense,17.95,Entertainment,Cash,Entertainment spending,2025-06-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_301,sample_user_001,expense,Entertainment expense,16.56,Entertainment,Debit Card,Entertainment spending,2025-06-07,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_302,sample_user_001,expense,Entertainment expense,17.95,Entertainment,Debit Card,Entertainment spending,2025-06-01,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_303,sample_user_001,expense,Entertainment expense,18.85,Entertainment,Cash,Entertainment spending,2025-06-09,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_304,sample_user_001,expense,Entertainment expense,17.63,Entertainment,Cash,Entertainment spending,2025-06-22,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_305,sample_user_001,expense,Entertainment expense,20.32,Entertainment,Debit Card,Entertainment spending,2025-06-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_306,sample_user_001,expense,Entertainment expense,17.18,Entertainment,Cash,Entertainment spending,2025-06-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_307,sample_user_001,expense,Entertainment expense,19.96,Entertainment,Credit Card,Entertainment spending,2025-06-11,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_308,sample_user_001,expense,Healthcare expense,13.9,Healthcare,Credit Card,Healthcare spending,2025-06-27,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_309,sample_user_001,expense,Healthcare expense,16.62,Healthcare,Cash,Healthcare spending,2025-06-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_310,sample_user_001,expense,Healthcare expense,14.74,Healthcare,Cash,Healthcare spending,2025-06-30,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_311,sample_user_001,expense,Healthcare expense,17.16,Healthcare,Cash,Healthcare spending,2025-06-22,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_312,sample_user_001,expense,Healthcare expense,15.72,Healthcare,Debit Card,Healthcare spending,2025-06-22,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_313,sample_user_001,expense,Healthcare expense,14.03,Healthcare,Debit Card,Healthcare spending,2025-06-19,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_314,sample_user_001,expense,Healthcare expense,14.01,Healthcare,Credit Card,Healthcare spending,2025-06-09,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_315,sample_user_001,expense,Healthcare expense,13.36,Healthcare,Cash,Healthcare spending,2025-06-24,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_316,sample_user_001,expense,Shopping expense,32.18,Shopping,Cash,Shopping spending,2025-06-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_317,sample_user_001,expense,Shopping expense,31.67,Shopping,Credit Card,Shopping spending,2025-06-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_318,sample_user_001,expense,Shopping expense,33.15,Shopping,Debit Card,Shopping spending,2025-06-05,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_319,sample_user_001,expense,Shopping expense,27.86,Shopping,Credit Card,Shopping spending,2025-06-30,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_320,sample_user_001,expense,Shopping expense,29.08,Shopping,Debit Card,Shopping spending,2025-06-11,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_321,sample_user_001,expense,Shopping expense,31.03,Shopping,Cash,Shopping spending,2025-06-13,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_322,sample_user_001,expense,Utilities expense,20.84,Utilities,Cash,Utilities spending,2025-06-28,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_323,sample_user_001,expense,Utilities expense,18.32,Utilities,Cash,Utilities spending,2025-06-15,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_324,sample_user_001,expense,Utilities expense,17.23,Utilities,Cash,Utilities spending,2025-06-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_325,sample_user_001,expense,Utilities expense,18.52,Utilities,Credit Card,Utilities spending,2025-06-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_326,sample_user_001,expense,Utilities expense,18.18,Utilities,Credit Card,Utilities spending,2025-06-06,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_327,sample_user_001,expense,Utilities expense,18.41,Utilities,Cash,Utilities spending,2025-06-22,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_328,sample_user_001,expense,Utilities expense,18.61,Utilities,Cash,Utilities spending,2025-06-19,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_329,sample_user_001,expense,Utilities expense,18.25,Utilities,Cash,Utilities spending,2025-06-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_330,sample_user_001,income,Monthly Salary,5572,Salary,Direct Deposit,Salary for 2025-07,2025-07-01,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_331,sample_user_001,expense,Housing expense,159.59,Housing,Credit Card,Housing spending,2025-07-06,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_332,sample_user_001,expense,Housing expense,190.13,Housing,Cash,Housing spending,2025-07-08,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_333,sample_user_001,expense,Housing expense,178.44,Housing,Credit Card,Housing spending,2025-07-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_334,sample_user_001,expense,Housing expense,162.06,Housing,Credit Card,Housing spending,2025-07-14,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_335,sample_user_001,expense,Housing expense,167.72,Housing,Cash,Housing spending,2025-07-09,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_336,sample_user_001,expense,Housing expense,162.21,Housing,Credit Card,Housing spending,2025-07-15,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_337,sample_user_001,expense,Housing expense,184.76,Housing,Debit Card,Housing spending,2025-07-21,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_338,sample_user_001,expense,Groceries expense,73.55,Groceries,Credit Card,Groceries spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_339,sample_user_001,expense,Groceries expense,65.47,Groceries,Cash,Groceries spending,2025-07-24,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_340,sample_user_001,expense,Groceries expense,79.84,Groceries,Cash,Groceries spending,2025-07-01,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_341,sample_user_001,expense,Groceries expense,79.61,Groceries,Debit Card,Groceries spending,2025-07-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_342,sample_user_001,expense,Groceries expense,73.17,Groceries,Cash,Groceries spending,2025-07-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_343,sample_user_001,expense,Groceries expense,78.2,Groceries,Cash,Groceries spending,2025-07-30,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_344,sample_user_001,expense,Dining expense,43.81,Dining,Debit Card,Dining spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_345,sample_user_001,expense,Dining expense,48.59,Dining,Cash,Dining spending,2025-07-15,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_346,sample_user_001,expense,Dining expense,43.19,Dining,Cash,Dining spending,2025-07-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_347,sample_user_001,expense,Dining expense,41.93,Dining,Cash,Dining spending,2025-07-10,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_348,sample_user_001,expense,Dining expense,39.33,Dining,Cash,Dining spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_349,sample_user_001,expense,Dining expense,42.51,Dining,Debit Card,Dining spending,2025-07-28,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_350,sample_user_001,expense,Dining expense,52.67,Dining,Credit Card,Dining spending,2025-07-26,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_351,sample_user_001,expense,Transportation expense,36.53,Transportation,Debit Card,Transportation spending,2025-07-16,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_352,sample_user_001,expense,Transportation expense,43.67,Transportation,Debit Card,Transportation spending,2025-07-06,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_353,sample_user_001,expense,Transportation expense,40.8,Transportation,Cash,Transportation spending,2025-07-17,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_354,sample_user_001,expense,Transportation expense,39.62,Transportation,Cash,Transportation spending,2025-07-07,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_355,sample_user_001,expense,Transportation expense,45.8,Transportation,Cash,Transportation spending,2025-07-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_356,sample_user_001,expense,Entertainment expense,32.93,Entertainment,Credit Card,Entertainment spending,2025-07-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_357,sample_user_001,expense,Entertainment expense,39.39,Entertainment,Debit Card,Entertainment spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_358,sample_user_001,expense,Entertainment expense,43.38,Entertainment,Debit Card,Entertainment spending,2025-07-17,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_359,sample_user_001,expense,Entertainment expense,33.54,Entertainment,Cash,Entertainment spending,2025-07-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_360,sample_user_001,expense,Entertainment expense,42.89,Entertainment,Credit Card,Entertainment spending,2025-07-19,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_361,sample_user_001,expense,Entertainment expense,41.34,Entertainment,Debit Card,Entertainment spending,2025-07-30,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_362,sample_user_001,expense,Entertainment expense,33.5,Entertainment,Credit Card,Entertainment spending,2025-07-16,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_363,sample_user_001,expense,Healthcare expense,26.6,Healthcare,Credit Card,Healthcare spending,2025-07-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_364,sample_user_001,expense,Healthcare expense,24.94,Healthcare,Credit Card,Healthcare spending,2025-07-01,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_365,sample_user_001,expense,Healthcare expense,23.91,Healthcare,Debit Card,Healthcare spending,2025-07-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_366,sample_user_001,expense,Healthcare expense,25.64,Healthcare,Credit Card,Healthcare spending,2025-07-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_367,sample_user_001,expense,Healthcare expense,20.6,Healthcare,Debit Card,Healthcare spending,2025-07-08,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_368,sample_user_001,expense,Shopping expense,27.04,Shopping,Cash,Shopping spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_369,sample_user_001,expense,Shopping expense,25.4,Shopping,Debit Card,Shopping spending,2025-07-02,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_370,sample_user_001,expense,Shopping expense,23.65,Shopping,Cash,Shopping spending,2025-07-02,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_371,sample_user_001,expense,Shopping expense,24.49,Shopping,Cash,Shopping spending,2025-07-05,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_372,sample_user_001,expense,Shopping expense,29.04,Shopping,Debit Card,Shopping spending,2025-07-13,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_373,sample_user_001,expense,Shopping expense,22.39,Shopping,Cash,Shopping spending,2025-07-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_374,sample_user_001,expense,Shopping expense,25.2,Shopping,Credit Card,Shopping spending,2025-07-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_375,sample_user_001,expense,Utilities expense,21.99,Utilities,Cash,Utilities spending,2025-07-15,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_376,sample_user_001,expense,Utilities expense,22.71,Utilities,Debit Card,Utilities spending,2025-07-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_377,sample_user_001,expense,Utilities expense,19.72,Utilities,Cash,Utilities spending,2025-07-04,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_378,sample_user_001,expense,Utilities expense,23.67,Utilities,Debit Card,Utilities spending,2025-07-11,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_379,sample_user_001,expense,Utilities expense,25.28,Utilities,Cash,Utilities spending,2025-07-13,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_380,sample_user_001,expense,Utilities expense,22.92,Utilities,Cash,Utilities spending,2025-07-24,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_381,sample_user_001,expense,Utilities expense,23.3,Utilities,Debit Card,Utilities spending,2025-07-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_382,sample_user_001,income,Monthly Salary,5572,Salary,Direct Deposit,Salary for 2025-08,2025-08-01,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_383,sample_user_001,expense,Housing expense,164.81,Housing,Credit Card,Housing spending,2025-08-10,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_384,sample_user_001,expense,Housing expense,183.12,Housing,Cash,Housing spending,2025-08-20,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_385,sample_user_001,expense,Housing expense,174.1,Housing,Debit Card,Housing spending,2025-08-07,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_386,sample_user_001,expense,Housing expense,158.82,Housing,Debit Card,Housing spending,2025-08-04,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_387,sample_user_001,expense,Housing expense,146.19,Housing,Debit Card,Housing spending,2025-08-09,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_388,sample_user_001,expense,Housing expense,166.84,Housing,Cash,Housing spending,2025-08-30,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_389,sample_user_001,expense,Housing expense,152.83,Housing,Debit Card,Housing spending,2025-08-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_390,sample_user_001,expense,Groceries expense,52.04,Groceries,Cash,Groceries spending,2025-08-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_391,sample_user_001,expense,Groceries expense,63.04,Groceries,Debit Card,Groceries spending,2025-08-02,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_392,sample_user_001,expense,Groceries expense,49.84,Groceries,Credit Card,Groceries spending,2025-08-03,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_393,sample_user_001,expense,Groceries expense,59.57,Groceries,Cash,Groceries spending,2025-08-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_394,sample_user_001,expense,Groceries expense,60.85,Groceries,Cash,Groceries spending,2025-08-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_395,sample_user_001,expense,Groceries expense,48.28,Groceries,Debit Card,Groceries spending,2025-08-29,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_396,sample_user_001,expense,Groceries expense,64.07,Groceries,Credit Card,Groceries spending,2025-08-27,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_397,sample_user_001,expense,Groceries expense,48.58,Groceries,Cash,Groceries spending,2025-08-22,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_398,sample_user_001,expense,Dining expense,41.19,Dining,Credit Card,Dining spending,2025-08-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_399,sample_user_001,expense,Dining expense,37.65,Dining,Cash,Dining spending,2025-08-09,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_400,sample_user_001,expense,Dining expense,46.69,Dining,Debit Card,Dining spending,2025-08-07,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_401,sample_user_001,expense,Dining expense,37.73,Dining,Credit Card,Dining spending,2025-08-14,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_402,sample_user_001,expense,Dining expense,39.34,Dining,Debit Card,Dining spending,2025-08-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_403,sample_user_001,expense,Dining expense,46.96,Dining,Credit Card,Dining spending,2025-08-18,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_404,sample_user_001,expense,Dining expense,45.75,Dining,Cash,Dining spending,2025-08-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_405,sample_user_001,expense,Dining expense,36.07,Dining,Cash,Dining spending,2025-08-08,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_406,sample_user_001,expense,Transportation expense,23.21,Transportation,Debit Card,Transportation spending,2025-08-16,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_407,sample_user_001,expense,Transportation expense,21.42,Transportation,Debit Card,Transportation spending,2025-08-27,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_408,sample_user_001,expense,Transportation expense,27.77,Transportation,Cash,Transportation spending,2025-08-12,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_409,sample_user_001,expense,Transportation expense,26.48,Transportation,Cash,Transportation spending,2025-08-23,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_410,sample_user_001,expense,Transportation expense,21.63,Transportation,Credit Card,Transportation spending,2025-08-07,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_411,sample_user_001,expense,Transportation expense,23.85,Transportation,Cash,Transportation spending,2025-08-25,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_412,sample_user_001,expense,Transportation expense,24.88,Transportation,Credit Card,Transportation spending,2025-08-24,2026-07-14T04:57:00.019Z,2026-07-14T04:57:00.019Z
+tx_413,sample_user_001,expense,Transportation expense,27.8,Transportation,Credit Card,Transportation spending,2025-08-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_414,sample_user_001,expense,Entertainment expense,19.12,Entertainment,Credit Card,Entertainment spending,2025-08-27,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_415,sample_user_001,expense,Entertainment expense,23.92,Entertainment,Debit Card,Entertainment spending,2025-08-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_416,sample_user_001,expense,Entertainment expense,21.57,Entertainment,Cash,Entertainment spending,2025-08-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_417,sample_user_001,expense,Entertainment expense,19.22,Entertainment,Debit Card,Entertainment spending,2025-08-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_418,sample_user_001,expense,Entertainment expense,19.54,Entertainment,Credit Card,Entertainment spending,2025-08-29,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_419,sample_user_001,expense,Entertainment expense,23.59,Entertainment,Debit Card,Entertainment spending,2025-08-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_420,sample_user_001,expense,Entertainment expense,20.43,Entertainment,Credit Card,Entertainment spending,2025-08-05,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_421,sample_user_001,expense,Healthcare expense,21.68,Healthcare,Cash,Healthcare spending,2025-08-27,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_422,sample_user_001,expense,Healthcare expense,25.37,Healthcare,Debit Card,Healthcare spending,2025-08-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_423,sample_user_001,expense,Healthcare expense,26.9,Healthcare,Credit Card,Healthcare spending,2025-08-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_424,sample_user_001,expense,Healthcare expense,27.27,Healthcare,Debit Card,Healthcare spending,2025-08-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_425,sample_user_001,expense,Healthcare expense,21.73,Healthcare,Cash,Healthcare spending,2025-08-19,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_426,sample_user_001,expense,Shopping expense,35.05,Shopping,Credit Card,Shopping spending,2025-08-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_427,sample_user_001,expense,Shopping expense,31.62,Shopping,Debit Card,Shopping spending,2025-08-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_428,sample_user_001,expense,Shopping expense,41.18,Shopping,Debit Card,Shopping spending,2025-08-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_429,sample_user_001,expense,Shopping expense,41.06,Shopping,Cash,Shopping spending,2025-08-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_430,sample_user_001,expense,Shopping expense,39.34,Shopping,Debit Card,Shopping spending,2025-08-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_431,sample_user_001,expense,Utilities expense,32.2,Utilities,Cash,Utilities spending,2025-08-07,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_432,sample_user_001,expense,Utilities expense,28.4,Utilities,Credit Card,Utilities spending,2025-08-09,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_433,sample_user_001,expense,Utilities expense,30.19,Utilities,Debit Card,Utilities spending,2025-08-13,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_434,sample_user_001,expense,Utilities expense,33.61,Utilities,Credit Card,Utilities spending,2025-08-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_435,sample_user_001,expense,Utilities expense,36.55,Utilities,Credit Card,Utilities spending,2025-08-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_436,sample_user_001,income,Monthly Salary,5472,Salary,Direct Deposit,Salary for 2025-09,2025-09-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_437,sample_user_001,expense,Housing expense,166.28,Housing,Cash,Housing spending,2025-09-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_438,sample_user_001,expense,Housing expense,177.28,Housing,Cash,Housing spending,2025-09-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_439,sample_user_001,expense,Housing expense,192.83,Housing,Cash,Housing spending,2025-09-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_440,sample_user_001,expense,Housing expense,174.73,Housing,Cash,Housing spending,2025-09-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_441,sample_user_001,expense,Housing expense,154.73,Housing,Cash,Housing spending,2025-09-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_442,sample_user_001,expense,Housing expense,166,Housing,Credit Card,Housing spending,2025-09-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_443,sample_user_001,expense,Housing expense,170.37,Housing,Debit Card,Housing spending,2025-09-14,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_444,sample_user_001,expense,Groceries expense,101.12,Groceries,Cash,Groceries spending,2025-09-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_445,sample_user_001,expense,Groceries expense,103.06,Groceries,Cash,Groceries spending,2025-09-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_446,sample_user_001,expense,Groceries expense,95.68,Groceries,Cash,Groceries spending,2025-09-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_447,sample_user_001,expense,Groceries expense,80.66,Groceries,Cash,Groceries spending,2025-09-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_448,sample_user_001,expense,Groceries expense,84.4,Groceries,Debit Card,Groceries spending,2025-09-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_449,sample_user_001,expense,Dining expense,52.98,Dining,Cash,Dining spending,2025-09-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_450,sample_user_001,expense,Dining expense,61.3,Dining,Cash,Dining spending,2025-09-26,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_451,sample_user_001,expense,Dining expense,60.39,Dining,Credit Card,Dining spending,2025-09-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_452,sample_user_001,expense,Dining expense,61.15,Dining,Debit Card,Dining spending,2025-09-14,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_453,sample_user_001,expense,Dining expense,52.57,Dining,Debit Card,Dining spending,2025-09-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_454,sample_user_001,expense,Dining expense,49.74,Dining,Credit Card,Dining spending,2025-09-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_455,sample_user_001,expense,Transportation expense,25.39,Transportation,Debit Card,Transportation spending,2025-09-07,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_456,sample_user_001,expense,Transportation expense,22.44,Transportation,Credit Card,Transportation spending,2025-09-09,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_457,sample_user_001,expense,Transportation expense,26.89,Transportation,Cash,Transportation spending,2025-09-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_458,sample_user_001,expense,Transportation expense,23.46,Transportation,Debit Card,Transportation spending,2025-09-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_459,sample_user_001,expense,Transportation expense,26.38,Transportation,Cash,Transportation spending,2025-09-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_460,sample_user_001,expense,Transportation expense,21.72,Transportation,Debit Card,Transportation spending,2025-09-24,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_461,sample_user_001,expense,Transportation expense,27.4,Transportation,Cash,Transportation spending,2025-09-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_462,sample_user_001,expense,Transportation expense,21.59,Transportation,Debit Card,Transportation spending,2025-09-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_463,sample_user_001,expense,Entertainment expense,18.62,Entertainment,Credit Card,Entertainment spending,2025-09-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_464,sample_user_001,expense,Entertainment expense,19.94,Entertainment,Credit Card,Entertainment spending,2025-09-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_465,sample_user_001,expense,Entertainment expense,22.86,Entertainment,Cash,Entertainment spending,2025-09-12,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_466,sample_user_001,expense,Entertainment expense,24.55,Entertainment,Cash,Entertainment spending,2025-09-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_467,sample_user_001,expense,Entertainment expense,21.72,Entertainment,Debit Card,Entertainment spending,2025-09-24,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_468,sample_user_001,expense,Entertainment expense,19.82,Entertainment,Debit Card,Entertainment spending,2025-09-25,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_469,sample_user_001,expense,Entertainment expense,19.62,Entertainment,Cash,Entertainment spending,2025-09-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_470,sample_user_001,expense,Healthcare expense,17.2,Healthcare,Credit Card,Healthcare spending,2025-09-28,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_471,sample_user_001,expense,Healthcare expense,16.84,Healthcare,Credit Card,Healthcare spending,2025-09-13,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_472,sample_user_001,expense,Healthcare expense,14.8,Healthcare,Cash,Healthcare spending,2025-09-28,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_473,sample_user_001,expense,Healthcare expense,15.87,Healthcare,Credit Card,Healthcare spending,2025-09-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_474,sample_user_001,expense,Healthcare expense,13.24,Healthcare,Cash,Healthcare spending,2025-09-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_475,sample_user_001,expense,Healthcare expense,14.29,Healthcare,Debit Card,Healthcare spending,2025-09-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_476,sample_user_001,expense,Healthcare expense,16.24,Healthcare,Debit Card,Healthcare spending,2025-09-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_477,sample_user_001,expense,Healthcare expense,15.12,Healthcare,Cash,Healthcare spending,2025-09-19,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_478,sample_user_001,expense,Shopping expense,26.01,Shopping,Cash,Shopping spending,2025-09-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_479,sample_user_001,expense,Shopping expense,27.92,Shopping,Cash,Shopping spending,2025-09-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_480,sample_user_001,expense,Shopping expense,24.6,Shopping,Cash,Shopping spending,2025-09-25,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_481,sample_user_001,expense,Shopping expense,24.59,Shopping,Cash,Shopping spending,2025-09-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_482,sample_user_001,expense,Shopping expense,22.77,Shopping,Cash,Shopping spending,2025-09-19,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_483,sample_user_001,expense,Shopping expense,28.05,Shopping,Cash,Shopping spending,2025-09-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_484,sample_user_001,expense,Shopping expense,25.23,Shopping,Debit Card,Shopping spending,2025-09-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_485,sample_user_001,expense,Utilities expense,22.01,Utilities,Debit Card,Utilities spending,2025-09-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_486,sample_user_001,expense,Utilities expense,18.5,Utilities,Credit Card,Utilities spending,2025-09-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_487,sample_user_001,expense,Utilities expense,20.65,Utilities,Debit Card,Utilities spending,2025-09-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_488,sample_user_001,expense,Utilities expense,19.55,Utilities,Cash,Utilities spending,2025-09-08,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_489,sample_user_001,expense,Utilities expense,17.4,Utilities,Debit Card,Utilities spending,2025-09-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_490,sample_user_001,expense,Utilities expense,21.29,Utilities,Cash,Utilities spending,2025-09-05,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_491,sample_user_001,expense,Utilities expense,18.06,Utilities,Credit Card,Utilities spending,2025-09-22,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_492,sample_user_001,expense,Utilities expense,18.09,Utilities,Debit Card,Utilities spending,2025-09-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_493,sample_user_001,income,Monthly Salary,5481,Salary,Direct Deposit,Salary for 2025-10,2025-10-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_494,sample_user_001,expense,Housing expense,156.71,Housing,Cash,Housing spending,2025-10-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_495,sample_user_001,expense,Housing expense,139.2,Housing,Credit Card,Housing spending,2025-10-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_496,sample_user_001,expense,Housing expense,135.36,Housing,Cash,Housing spending,2025-10-19,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_497,sample_user_001,expense,Housing expense,166.41,Housing,Credit Card,Housing spending,2025-10-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_498,sample_user_001,expense,Housing expense,160.03,Housing,Debit Card,Housing spending,2025-10-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_499,sample_user_001,expense,Housing expense,150.89,Housing,Debit Card,Housing spending,2025-10-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_500,sample_user_001,expense,Housing expense,169.17,Housing,Credit Card,Housing spending,2025-10-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_501,sample_user_001,expense,Housing expense,160.75,Housing,Credit Card,Housing spending,2025-10-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_502,sample_user_001,expense,Groceries expense,88.53,Groceries,Credit Card,Groceries spending,2025-10-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_503,sample_user_001,expense,Groceries expense,81.84,Groceries,Debit Card,Groceries spending,2025-10-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_504,sample_user_001,expense,Groceries expense,92.7,Groceries,Cash,Groceries spending,2025-10-05,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_505,sample_user_001,expense,Groceries expense,85.56,Groceries,Debit Card,Groceries spending,2025-10-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_506,sample_user_001,expense,Groceries expense,101.82,Groceries,Debit Card,Groceries spending,2025-10-12,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_507,sample_user_001,expense,Dining expense,72.75,Dining,Credit Card,Dining spending,2025-10-20,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_508,sample_user_001,expense,Dining expense,66.79,Dining,Cash,Dining spending,2025-10-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_509,sample_user_001,expense,Dining expense,76.62,Dining,Cash,Dining spending,2025-10-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_510,sample_user_001,expense,Dining expense,74.18,Dining,Debit Card,Dining spending,2025-10-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_511,sample_user_001,expense,Dining expense,65.1,Dining,Credit Card,Dining spending,2025-10-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_512,sample_user_001,expense,Transportation expense,29.19,Transportation,Cash,Transportation spending,2025-10-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_513,sample_user_001,expense,Transportation expense,31.2,Transportation,Credit Card,Transportation spending,2025-10-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_514,sample_user_001,expense,Transportation expense,32.81,Transportation,Debit Card,Transportation spending,2025-10-24,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_515,sample_user_001,expense,Transportation expense,31.6,Transportation,Debit Card,Transportation spending,2025-10-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_516,sample_user_001,expense,Transportation expense,26.17,Transportation,Cash,Transportation spending,2025-10-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_517,sample_user_001,expense,Transportation expense,26.44,Transportation,Cash,Transportation spending,2025-10-29,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_518,sample_user_001,expense,Transportation expense,27.85,Transportation,Debit Card,Transportation spending,2025-10-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_519,sample_user_001,expense,Entertainment expense,20.7,Entertainment,Debit Card,Entertainment spending,2025-10-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_520,sample_user_001,expense,Entertainment expense,18.4,Entertainment,Debit Card,Entertainment spending,2025-10-07,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_521,sample_user_001,expense,Entertainment expense,20.09,Entertainment,Credit Card,Entertainment spending,2025-10-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_522,sample_user_001,expense,Entertainment expense,22.26,Entertainment,Cash,Entertainment spending,2025-10-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_523,sample_user_001,expense,Entertainment expense,22.42,Entertainment,Cash,Entertainment spending,2025-10-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_524,sample_user_001,expense,Entertainment expense,18.78,Entertainment,Credit Card,Entertainment spending,2025-10-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_525,sample_user_001,expense,Entertainment expense,18.72,Entertainment,Cash,Entertainment spending,2025-10-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_526,sample_user_001,expense,Healthcare expense,18.26,Healthcare,Cash,Healthcare spending,2025-10-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_527,sample_user_001,expense,Healthcare expense,14.89,Healthcare,Debit Card,Healthcare spending,2025-10-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_528,sample_user_001,expense,Healthcare expense,15.87,Healthcare,Credit Card,Healthcare spending,2025-10-31,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_529,sample_user_001,expense,Healthcare expense,14.89,Healthcare,Credit Card,Healthcare spending,2025-10-28,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_530,sample_user_001,expense,Healthcare expense,19.71,Healthcare,Debit Card,Healthcare spending,2025-10-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_531,sample_user_001,expense,Healthcare expense,17.32,Healthcare,Cash,Healthcare spending,2025-10-14,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_532,sample_user_001,expense,Healthcare expense,19.26,Healthcare,Debit Card,Healthcare spending,2025-10-25,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_533,sample_user_001,expense,Shopping expense,38.19,Shopping,Debit Card,Shopping spending,2025-10-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_534,sample_user_001,expense,Shopping expense,35.8,Shopping,Debit Card,Shopping spending,2025-10-22,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_535,sample_user_001,expense,Shopping expense,31.32,Shopping,Cash,Shopping spending,2025-10-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_536,sample_user_001,expense,Shopping expense,41.29,Shopping,Debit Card,Shopping spending,2025-10-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_537,sample_user_001,expense,Shopping expense,40.76,Shopping,Debit Card,Shopping spending,2025-10-26,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_538,sample_user_001,expense,Utilities expense,22.85,Utilities,Cash,Utilities spending,2025-10-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_539,sample_user_001,expense,Utilities expense,21.28,Utilities,Credit Card,Utilities spending,2025-10-19,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_540,sample_user_001,expense,Utilities expense,18.57,Utilities,Credit Card,Utilities spending,2025-10-08,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_541,sample_user_001,expense,Utilities expense,17.01,Utilities,Credit Card,Utilities spending,2025-10-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_542,sample_user_001,expense,Utilities expense,17.39,Utilities,Debit Card,Utilities spending,2025-10-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_543,sample_user_001,expense,Utilities expense,22.8,Utilities,Cash,Utilities spending,2025-10-04,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_544,sample_user_001,expense,Utilities expense,22.14,Utilities,Debit Card,Utilities spending,2025-10-18,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_545,sample_user_001,expense,Utilities expense,18.5,Utilities,Credit Card,Utilities spending,2025-10-25,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_546,sample_user_001,income,Monthly Salary,5511,Salary,Direct Deposit,Salary for 2025-11,2025-11-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_547,sample_user_001,expense,Housing expense,153.86,Housing,Cash,Housing spending,2025-11-22,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_548,sample_user_001,expense,Housing expense,133.29,Housing,Credit Card,Housing spending,2025-11-24,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_549,sample_user_001,expense,Housing expense,134.46,Housing,Cash,Housing spending,2025-11-28,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_550,sample_user_001,expense,Housing expense,160.37,Housing,Cash,Housing spending,2025-11-14,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_551,sample_user_001,expense,Housing expense,163.59,Housing,Debit Card,Housing spending,2025-11-25,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_552,sample_user_001,expense,Housing expense,162.04,Housing,Cash,Housing spending,2025-11-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_553,sample_user_001,expense,Housing expense,137.25,Housing,Debit Card,Housing spending,2025-11-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_554,sample_user_001,expense,Housing expense,149.89,Housing,Credit Card,Housing spending,2025-11-17,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_555,sample_user_001,expense,Groceries expense,69.41,Groceries,Credit Card,Groceries spending,2025-11-27,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_556,sample_user_001,expense,Groceries expense,59.22,Groceries,Debit Card,Groceries spending,2025-11-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_557,sample_user_001,expense,Groceries expense,58.1,Groceries,Credit Card,Groceries spending,2025-11-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_558,sample_user_001,expense,Groceries expense,73.87,Groceries,Debit Card,Groceries spending,2025-11-13,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_559,sample_user_001,expense,Groceries expense,63.95,Groceries,Credit Card,Groceries spending,2025-11-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_560,sample_user_001,expense,Groceries expense,65.09,Groceries,Credit Card,Groceries spending,2025-11-06,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_561,sample_user_001,expense,Groceries expense,63.3,Groceries,Debit Card,Groceries spending,2025-11-13,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_562,sample_user_001,expense,Dining expense,64.62,Dining,Cash,Dining spending,2025-11-02,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_563,sample_user_001,expense,Dining expense,66.51,Dining,Debit Card,Dining spending,2025-11-16,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_564,sample_user_001,expense,Dining expense,54.49,Dining,Debit Card,Dining spending,2025-11-29,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_565,sample_user_001,expense,Dining expense,63.91,Dining,Debit Card,Dining spending,2025-11-03,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_566,sample_user_001,expense,Dining expense,52.38,Dining,Credit Card,Dining spending,2025-11-14,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_567,sample_user_001,expense,Dining expense,58.84,Dining,Debit Card,Dining spending,2025-11-10,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_568,sample_user_001,expense,Transportation expense,26.45,Transportation,Debit Card,Transportation spending,2025-11-26,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_569,sample_user_001,expense,Transportation expense,24.91,Transportation,Credit Card,Transportation spending,2025-11-11,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_570,sample_user_001,expense,Transportation expense,27.41,Transportation,Credit Card,Transportation spending,2025-11-30,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_571,sample_user_001,expense,Transportation expense,29.36,Transportation,Cash,Transportation spending,2025-11-21,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_572,sample_user_001,expense,Transportation expense,24.84,Transportation,Cash,Transportation spending,2025-11-29,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_573,sample_user_001,expense,Transportation expense,31.83,Transportation,Cash,Transportation spending,2025-11-01,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_574,sample_user_001,expense,Transportation expense,30.89,Transportation,Cash,Transportation spending,2025-11-15,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_575,sample_user_001,expense,Entertainment expense,32.06,Entertainment,Debit Card,Entertainment spending,2025-11-23,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_576,sample_user_001,expense,Entertainment expense,26.28,Entertainment,Cash,Entertainment spending,2025-11-28,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_577,sample_user_001,expense,Entertainment expense,33.91,Entertainment,Credit Card,Entertainment spending,2025-11-05,2026-07-14T04:57:00.020Z,2026-07-14T04:57:00.020Z
+tx_578,sample_user_001,expense,Entertainment expense,28.83,Entertainment,Credit Card,Entertainment spending,2025-11-14,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_579,sample_user_001,expense,Entertainment expense,27.68,Entertainment,Debit Card,Entertainment spending,2025-11-23,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_580,sample_user_001,expense,Healthcare expense,19.63,Healthcare,Cash,Healthcare spending,2025-11-24,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_581,sample_user_001,expense,Healthcare expense,18.26,Healthcare,Cash,Healthcare spending,2025-11-02,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_582,sample_user_001,expense,Healthcare expense,18.42,Healthcare,Debit Card,Healthcare spending,2025-11-18,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_583,sample_user_001,expense,Healthcare expense,17.22,Healthcare,Credit Card,Healthcare spending,2025-11-17,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_584,sample_user_001,expense,Healthcare expense,15.15,Healthcare,Debit Card,Healthcare spending,2025-11-21,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_585,sample_user_001,expense,Healthcare expense,16.06,Healthcare,Debit Card,Healthcare spending,2025-11-19,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_586,sample_user_001,expense,Healthcare expense,15.51,Healthcare,Cash,Healthcare spending,2025-11-11,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_587,sample_user_001,expense,Shopping expense,78.97,Shopping,Cash,Shopping spending,2025-11-12,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_588,sample_user_001,expense,Shopping expense,71.26,Shopping,Cash,Shopping spending,2025-11-19,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_589,sample_user_001,expense,Shopping expense,67.37,Shopping,Credit Card,Shopping spending,2025-11-27,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_590,sample_user_001,expense,Shopping expense,67.37,Shopping,Credit Card,Shopping spending,2025-11-18,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_591,sample_user_001,expense,Shopping expense,79.86,Shopping,Cash,Shopping spending,2025-11-22,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_592,sample_user_001,expense,Shopping expense,69.44,Shopping,Credit Card,Shopping spending,2025-11-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_593,sample_user_001,expense,Utilities expense,18.73,Utilities,Credit Card,Utilities spending,2025-11-20,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_594,sample_user_001,expense,Utilities expense,18.74,Utilities,Credit Card,Utilities spending,2025-11-10,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_595,sample_user_001,expense,Utilities expense,17.48,Utilities,Debit Card,Utilities spending,2025-11-01,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_596,sample_user_001,expense,Utilities expense,21.38,Utilities,Cash,Utilities spending,2025-11-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_597,sample_user_001,expense,Utilities expense,22.07,Utilities,Cash,Utilities spending,2025-11-23,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_598,sample_user_001,expense,Utilities expense,22.93,Utilities,Cash,Utilities spending,2025-11-23,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_599,sample_user_001,expense,Utilities expense,17.72,Utilities,Credit Card,Utilities spending,2025-11-17,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_600,sample_user_001,expense,Utilities expense,19.16,Utilities,Debit Card,Utilities spending,2025-11-25,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_601,sample_user_001,income,Monthly Salary,5503,Salary,Direct Deposit,Salary for 2025-12,2025-12-01,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_602,sample_user_001,expense,Housing expense,188.99,Housing,Cash,Housing spending,2025-12-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_603,sample_user_001,expense,Housing expense,214.27,Housing,Debit Card,Housing spending,2025-12-17,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_604,sample_user_001,expense,Housing expense,180.35,Housing,Debit Card,Housing spending,2025-12-05,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_605,sample_user_001,expense,Housing expense,176.8,Housing,Cash,Housing spending,2025-12-01,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_606,sample_user_001,expense,Housing expense,202.9,Housing,Debit Card,Housing spending,2025-12-13,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_607,sample_user_001,expense,Housing expense,199.88,Housing,Credit Card,Housing spending,2025-12-08,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_608,sample_user_001,expense,Groceries expense,83.9,Groceries,Debit Card,Groceries spending,2025-12-31,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_609,sample_user_001,expense,Groceries expense,91.01,Groceries,Credit Card,Groceries spending,2025-12-28,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_610,sample_user_001,expense,Groceries expense,101.99,Groceries,Debit Card,Groceries spending,2025-12-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_611,sample_user_001,expense,Groceries expense,89.96,Groceries,Debit Card,Groceries spending,2025-12-10,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_612,sample_user_001,expense,Groceries expense,101.41,Groceries,Cash,Groceries spending,2025-12-23,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_613,sample_user_001,expense,Dining expense,67.75,Dining,Cash,Dining spending,2025-12-01,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_614,sample_user_001,expense,Dining expense,63.12,Dining,Credit Card,Dining spending,2025-12-06,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_615,sample_user_001,expense,Dining expense,61.37,Dining,Cash,Dining spending,2025-12-16,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_616,sample_user_001,expense,Dining expense,67.78,Dining,Cash,Dining spending,2025-12-10,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_617,sample_user_001,expense,Dining expense,61.31,Dining,Credit Card,Dining spending,2025-12-10,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_618,sample_user_001,expense,Dining expense,52.65,Dining,Credit Card,Dining spending,2025-12-20,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_619,sample_user_001,expense,Transportation expense,42.65,Transportation,Credit Card,Transportation spending,2025-12-11,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_620,sample_user_001,expense,Transportation expense,37.04,Transportation,Credit Card,Transportation spending,2025-12-13,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_621,sample_user_001,expense,Transportation expense,45.41,Transportation,Credit Card,Transportation spending,2025-12-06,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_622,sample_user_001,expense,Transportation expense,38.17,Transportation,Credit Card,Transportation spending,2025-12-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_623,sample_user_001,expense,Transportation expense,40.94,Transportation,Debit Card,Transportation spending,2025-12-21,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_624,sample_user_001,expense,Entertainment expense,65.14,Entertainment,Cash,Entertainment spending,2025-12-08,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_625,sample_user_001,expense,Entertainment expense,68.22,Entertainment,Cash,Entertainment spending,2025-12-28,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_626,sample_user_001,expense,Entertainment expense,61.14,Entertainment,Cash,Entertainment spending,2025-12-21,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_627,sample_user_001,expense,Entertainment expense,73.92,Entertainment,Credit Card,Entertainment spending,2025-12-15,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_628,sample_user_001,expense,Entertainment expense,73.42,Entertainment,Debit Card,Entertainment spending,2025-12-06,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_629,sample_user_001,expense,Healthcare expense,15.33,Healthcare,Debit Card,Healthcare spending,2025-12-19,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_630,sample_user_001,expense,Healthcare expense,14.68,Healthcare,Debit Card,Healthcare spending,2025-12-04,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_631,sample_user_001,expense,Healthcare expense,17.79,Healthcare,Cash,Healthcare spending,2025-12-11,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_632,sample_user_001,expense,Healthcare expense,15.03,Healthcare,Debit Card,Healthcare spending,2025-12-15,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_633,sample_user_001,expense,Healthcare expense,19.06,Healthcare,Debit Card,Healthcare spending,2025-12-09,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_634,sample_user_001,expense,Healthcare expense,19.02,Healthcare,Cash,Healthcare spending,2025-12-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_635,sample_user_001,expense,Healthcare expense,18.71,Healthcare,Cash,Healthcare spending,2025-12-15,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_636,sample_user_001,expense,Shopping expense,27.84,Shopping,Cash,Shopping spending,2025-12-08,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_637,sample_user_001,expense,Shopping expense,27.18,Shopping,Credit Card,Shopping spending,2025-12-22,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_638,sample_user_001,expense,Shopping expense,29.75,Shopping,Credit Card,Shopping spending,2025-12-08,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_639,sample_user_001,expense,Shopping expense,29.37,Shopping,Cash,Shopping spending,2025-12-03,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_640,sample_user_001,expense,Shopping expense,33.57,Shopping,Cash,Shopping spending,2025-12-14,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_641,sample_user_001,expense,Shopping expense,32.85,Shopping,Cash,Shopping spending,2025-12-21,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_642,sample_user_001,expense,Utilities expense,22.94,Utilities,Credit Card,Utilities spending,2025-12-09,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_643,sample_user_001,expense,Utilities expense,22.14,Utilities,Debit Card,Utilities spending,2025-12-26,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_644,sample_user_001,expense,Utilities expense,21.8,Utilities,Cash,Utilities spending,2025-12-12,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_645,sample_user_001,expense,Utilities expense,18.13,Utilities,Debit Card,Utilities spending,2025-12-25,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_646,sample_user_001,expense,Utilities expense,22.28,Utilities,Credit Card,Utilities spending,2025-12-11,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_647,sample_user_001,expense,Utilities expense,20.6,Utilities,Cash,Utilities spending,2025-12-14,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_648,sample_user_001,expense,Utilities expense,19.43,Utilities,Credit Card,Utilities spending,2025-12-16,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_649,sample_user_001,expense,Utilities expense,20.58,Utilities,Cash,Utilities spending,2025-12-28,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_650,sample_user_001,expense,Catering Event,890,Dining,Credit Card,ANOMALY: unusually high Dining charge,2025-03-15,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_651,sample_user_001,expense,Electronics Purchase,1250,Shopping,Credit Card,ANOMALY: unusually high Shopping charge,2025-02-28,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_652,sample_user_001,expense,Emergency Dental,780,Healthcare,Credit Card,ANOMALY: unusually high Healthcare charge,2025-10-08,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z
+tx_653,sample_user_001,expense,Flight Booking,620,Transportation,Credit Card,ANOMALY: unusually high Transportation charge,2025-05-20,2026-07-14T04:57:00.021Z,2026-07-14T04:57:00.021Z

@@ -190,9 +190,9 @@ const generateSyntheticData = () => {
       updated_at: new Date().toISOString(),
     });
 
-    // Expense transactions per category (2-4 per category per month)
+    // Expense transactions per category (5-8 per category per month for richer dataset)
     for (const [category, { base }] of Object.entries(CATEGORIES)) {
-      const numTx = 2 + Math.floor(Math.random() * 3);
+      const numTx = 5 + Math.floor(Math.random() * 4);
       for (let i = 0; i < numTx; i++) {
         const day = Math.min(1 + Math.floor(Math.random() * daysInMonth), daysInMonth);
         let amount = seasonalAmount(base / numTx, month, category);

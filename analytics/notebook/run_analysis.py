@@ -1,5 +1,5 @@
 """
-run_analysis.py — Generates all charts for the finance analytics notebook.
+run_analysis.py — Generates all charts for the financial_analysis notebook.
 Run from repo root: python analytics/notebook/run_analysis.py
 Saves figures to analytics/notebook/figures/
 """
